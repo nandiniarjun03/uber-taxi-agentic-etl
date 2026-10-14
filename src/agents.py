@@ -607,7 +607,8 @@ class AgentSystem:
                 time.sleep(self.cfg.agent.job_poll_seconds)
             if run.get("result_state") == "SUCCESS" or not run.get("retryable", True):
                 break
-            log.warning("ETL attempt %s failed (%s) - retrying", attempts, run.get("error_type"))
+            if attempts < max_attempts:
+                log.warning("ETL attempt %s failed (%s) - retrying", attempts, run.get("error_type"))
 
         update.update(etl_run=run, etl_attempts=attempts)
         if run.get("result_state") == "SUCCESS":
