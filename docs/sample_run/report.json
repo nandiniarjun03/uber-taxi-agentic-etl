@@ -1,0 +1,50 @@
+{
+  "run_id": "2026-10-14T20-04-38-8af0",
+  "request": "Run the full ETL pipeline for the latest Uber bookings and validate every layer",
+  "route": "run_etl",
+  "nodes_run": [
+    "supervisor",
+    "etl",
+    "quality",
+    "analytics"
+  ],
+  "status": "PASS_WITH_WARNINGS",
+  "row_counts": {
+    "bronze": 150000,
+    "silver": 148767,
+    "quarantine": 1233
+  },
+  "checks_passed": 25,
+  "checks_warned": 1,
+  "checks_failed": 0,
+  "findings": [
+    {
+      "rule": "bronze_unique_booking_id",
+      "layer": "bronze",
+      "severity": "warning",
+      "explanation": "Share of Booking IDs that appear more than once: observed 0.82% vs threshold warn > 0.50%, fail > 2.00% (1233 of 150000 records).",
+      "recommended_action": "Check whether the same file was delivered twice or overlapping extracts were landed; de-duplicate at source and re-ingest."
+    }
+  ],
+  "escalated_to_human": false,
+  "kpis": {
+    "bookings": 148767,
+    "completed": 92244,
+    "completion_rate": 0.6201,
+    "revenue": 46859058.0,
+    "from_date": "2024-01-01",
+    "to_date": "2024-12-30"
+  },
+  "etl_attempts": 1,
+  "duration_s": 80.84,
+  "llm": {
+    "client": "offline-rules",
+    "calls": 2,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "latency_s": 0.0,
+    "fallbacks": 0
+  },
+  "summary": "Run 2026-10-14T20-04-38-8af0 finished with status PASS_WITH_WARNINGS after nodes supervisor, etl, quality, analytics. Row counts: {'bronze': 150000, 'silver': 148767, 'quarantine': 1233}. Warnings to investigate: bronze_unique_booking_id. No human action required."
+}

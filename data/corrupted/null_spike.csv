@@ -1,0 +1,501 @@
+Date,Time,Booking ID,Booking Status,Customer ID,Vehicle Type,Pickup Location,Drop Location,Avg VTAT,Avg CTAT,Cancelled Rides by Customer,Reason for cancelling by Customer,Cancelled Rides by Driver,Driver Cancellation Reason,Incomplete Rides,Incomplete Rides Reason,Booking Value,Ride Distance,Driver Ratings,Customer Rating,Payment Method
+01-01-2024,01:00:02,"""CNR4048521""",Completed,"""CID7463900""",Go Mini,Huda City Centre,Noida Sector 18,14.7,42.4,null,null,null,null,null,null,431,24.06,4.5,4.5,UPI
+01-01-2024,08:28:09,"""CNR8886813""",Cancelled by Customer,"""CID2620398""",eBike,Golf Course Road,Connaught Place,15.1,null,1,Driver asked to cancel,null,null,null,null,null,null,null,null,null
+02-01-2024,21:58:21,"""CNR6096102""",Cancelled by Customer,"""CID7463900""",Uber XL,Okhla,Noida Film City,10.3,null,1,AC is not working,null,null,null,null,null,null,null,null,null
+03-01-2024,11:17:54,"""CNR7880144""",Completed,"""CID4173997""",Auto,Udyog Vihar,Faridabad Sector 15,8.9,20.6,null,null,null,null,null,null,626,46.17,3.9,3.1,UPI
+03-01-2024,15:00:49,"""CNR4358827""",Completed,"""CID4330834""",Bike,Noida Sector 18,Laxmi Nagar,4.8,20.3,null,null,null,null,null,null,243,26.14,4.9,3.2,Cash
+04-01-2024,20:08:59,"""CNR5449672""",Completed,"""CID4987666""",Go Sedan,New Delhi Railway Station,IGI Airport,16.6,31.5,null,null,null,null,null,null,962,47.36,4.6,3.7,UPI
+05-01-2024,04:17:14,"""CNR9945284""",Cancelled by Driver,"""CID4330834""",Go Mini,MG Road,Kashmere Gate,6.1,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+06-01-2024,13:01:48,"""CNR9360109""",No Driver Found,"""CID8023807""",Auto,Connaught Place,Anand Vihar ISBT,null,null,null,null,null,null,null,null,null,null,null,null,null
+06-01-2024,13:23:33,"""CNR5113213""",Cancelled by Driver,"""CID6563917""",Auto,Faridabad Sector 15,Chandni Chowk,10.5,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+07-01-2024,00:20:35,"""CNR6942026""",Completed,"""CID8831344""",Auto,Ghaziabad,Cyber Hub,10.1,23.7,null,null,null,null,null,null,466,26.99,4.7,3.5,UPI
+08-01-2024,00:23:03,"""CNR7977176""",Completed,"""CID2817037""",Go Sedan,Vaishali,Lajpat Nagar,8.2,16.0,null,null,null,null,null,null,820,33.85,4.3,4.4,UPI
+09-01-2024,03:29:15,"""CNR4659566""",Completed,"""CID7668805""",Go Mini,New Delhi Railway Station,Janakpuri,7.4,44.5,null,null,null,null,null,null,397,21.77,4.2,4.2,UPI
+09-01-2024,05:47:38,"""CNR9847117""",Cancelled by Customer,"""CID5017833""",Bike,Faridabad Sector 15,Saket,13.0,null,1,Wrong Address,null,null,null,null,null,null,null,null,null
+10-01-2024,21:22:15,"""CNR6193038""",Cancelled by Driver,"""CID6018911""",Go Mini,Tilak Nagar,Ghaziabad,2.4,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+11-01-2024,03:39:21,"""CNR6540484""",Completed,"""CID8739805""",Go Mini,Okhla,Huda City Centre,13.9,13.7,null,null,null,null,null,null,347,15.87,3.5,4.3,Debit Card
+11-01-2024,12:20:35,"""CNR9713259""",Cancelled by Driver,"""CID5017833""",Bike,Karol Bagh,Hauz Khas,12.5,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+12-01-2024,10:41:41,"""CNR2252790""",No Driver Found,"""CID7379268""",Auto,Shahdara,Rohini,null,null,null,null,null,null,null,null,null,null,null,null,null
+13-01-2024,17:21:33,"""CNR4462512""",Completed,"""CID5324669""",Auto,Sohna Road,Connaught Place,19.5,19.6,null,null,null,null,null,null,239,15.93,4.8,3.8,Credit Card
+14-01-2024,05:09:19,"""CNR3489259""",Cancelled by Driver,"""CID7383277""",Auto,Udyog Vihar,Hauz Khas,17.4,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+14-01-2024,21:11:16,"""CNR8860682""",Completed,"""CID9137055""",Go Sedan,null,AIIMS,3.4,26.3,null,null,null,null,null,null,342,15.08,4.5,4.6,Cash
+15-01-2024,06:53:04,"""CNR9918906""",Completed,"""CID3855028""",Go Mini,Barakhamba Road,Hauz Khas,11.4,40.9,null,null,null,null,null,null,317,15.75,4.7,4.0,Cash
+16-01-2024,04:37:19,"""CNR4567021""",Incomplete,"""CID9431794""",Go Sedan,Anand Vihar ISBT,Tilak Nagar,10.6,40.9,null,null,null,null,1,Vehicle Breakdown,181,8.28,null,null,Uber Wallet
+17-01-2024,17:23:30,"""CNR1981216""",Completed,"""CID2445809""",eBike,Tilak Nagar,Vaishali,17.3,10.9,null,null,null,null,null,null,274,29.19,4.8,4.2,Cash
+17-01-2024,20:18:50,"""CNR7910710""",Completed,null,Premier Sedan,Huda City Centre,Sohna Road,9.1,14.3,null,null,null,null,null,null,931,43.38,4.5,3.7,UPI
+18-01-2024,08:21:50,"""CNR6862712""",Cancelled by Customer,"""CID5152080""",Auto,null,Mayur Vihar,4.9,null,1,Driver is not moving towards pickup location,null,null,null,null,null,null,null,null,null
+19-01-2024,03:30:26,"""CNR7988895""",Cancelled by Driver,"""CID8023807""",Go Mini,null,Cyber Hub,17.7,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+20-01-2024,15:14:58,"""CNR8816192""",Completed,"""CID2291674""",Auto,Tilak Nagar,Sohna Road,13.8,12.6,null,null,null,null,null,null,546,31.08,4.3,3.9,Cash
+20-01-2024,15:35:25,"""CNR3083453""",No Driver Found,"""CID6817733""",Go Sedan,Greater Kailash,Dwarka Sector 21,null,null,null,null,null,null,null,null,null,null,null,null,null
+21-01-2024,14:34:02,"""CNR3331460""",Cancelled by Driver,"""CID4987666""",Premier Sedan,Dwarka Sector 21,Faridabad Sector 15,5.5,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+22-01-2024,08:38:28,"""CNR6488118""",Completed,null,Auto,Ghaziabad,Jasola,8.1,33.5,null,null,null,null,null,null,336,23.45,3.1,3.7,UPI
+22-01-2024,09:11:11,"""CNR7548248""",Completed,"""CID4664267""",Go Sedan,null,Noida Film City,7.4,17.2,null,null,null,null,null,null,117,3.78,3.3,3.3,UPI
+23-01-2024,00:32:24,"""CNR6550343""",Cancelled by Driver,"""CID8738171""",Auto,null,Barakhamba Road,15.3,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+24-01-2024,00:11:28,"""CNR6793112""",Completed,"""CID4550787""",Bike,Noida Film City,MG Road,8.6,28.8,null,null,null,null,null,null,343,31.28,4.3,3.9,Debit Card
+25-01-2024,00:15:39,"""CNR6460694""",Incomplete,"""CID8120612""",Auto,Nehru Place,Laxmi Nagar,15.9,14.1,null,null,null,null,1,Vehicle Breakdown,68,2.31,null,null,Credit Card
+25-01-2024,18:07:14,"""CNR4374696""",Completed,"""CID3809922""",Go Sedan,Tilak Nagar,Jasola,4.0,26.7,null,null,null,null,null,null,245,10.05,3.9,4.3,Cash
+26-01-2024,14:08:37,"""CNR8160631""",Completed,null,Bike,Sohna Road,Connaught Place,13.1,15.8,null,null,null,null,null,null,237,23.99,3.4,4.7,Debit Card
+27-01-2024,23:19:35,"""CNR7952208""",Completed,"""CID9632737""",eBike,Pitampura,Anand Vihar ISBT,8.9,36.7,null,null,null,null,null,null,195,15.82,4.1,4.8,Cash
+28-01-2024,16:21:55,"""CNR6309219""",Completed,"""CID5152080""",Go Sedan,null,Vasant Kunj,12.5,29.9,null,null,null,null,null,null,628,29.00,3.4,3.1,Cash
+28-01-2024,16:29:00,"""CNR4591281""",Cancelled by Customer,"""CID2638946""",Auto,Khan Market,Dwarka Sector 21,5.4,null,1,Wrong Address,null,null,null,null,null,null,null,null,null
+29-01-2024,18:47:20,"""CNR7827910""",Completed,"""CID3902667""",Premier Sedan,Indirapuram,IGI Airport,7.1,10.3,null,null,null,null,null,null,547,18.12,4.3,4.4,UPI
+30-01-2024,06:47:21,"""CNR4843711""",Completed,"""CID6027933""",Auto,Udyog Vihar,Huda City Centre,5.0,32.8,null,null,null,null,null,null,720,47.65,5.0,3.9,UPI
+31-01-2024,11:18:15,"""CNR1679259""",Cancelled by Driver,"""CID4134689""",Auto,Indirapuram,Janakpuri,17.9,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+31-01-2024,22:44:58,"""CNR4430790""",Completed,"""CID8939526""",Premier Sedan,Indirapuram,Janakpuri,14.9,35.4,null,null,null,null,null,null,632,28.24,4.3,3.4,UPI
+01-02-2024,19:02:19,"""CNR4778559""",Completed,"""CID5701491""",Bike,Punjabi Bagh,Noida Sector 18,3.8,30.4,null,null,null,null,null,null,375,31.71,3.3,3.5,Uber Wallet
+02-02-2024,10:28:53,"""CNR5343260""",Completed,"""CID6676155""",Bike,null,Faridabad Sector 15,6.2,11.7,null,null,null,null,null,null,161,13.04,3.8,3.1,Debit Card
+02-02-2024,15:21:26,"""CNR1325827""",Cancelled by Customer,"""CID7668805""",Auto,Lajpat Nagar,Greater Kailash,8.8,null,1,Driver is not moving towards pickup location,null,null,null,null,null,null,null,null,null
+03-02-2024,16:50:18,"""CNR9483236""",Cancelled by Driver,null,Auto,Ghaziabad,Laxmi Nagar,11.1,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+04-02-2024,22:15:22,"""CNR6355687""",Completed,"""CID4647152""",Go Sedan,Anand Vihar ISBT,Hauz Khas,6.9,10.2,null,null,null,null,null,null,425,21.92,3.2,4.9,UPI
+05-02-2024,05:26:01,"""CNR2879630""",No Driver Found,"""CID4121293""",Go Sedan,null,Pitampura,null,null,null,null,null,null,null,null,null,null,null,null,null
+05-02-2024,21:55:21,"""CNR8064033""",Completed,"""CID1762091""",Go Mini,null,Okhla,15.0,38.1,null,null,null,null,null,null,552,30.15,3.5,3.8,UPI
+06-02-2024,19:33:25,"""CNR6555392""",Cancelled by Customer,"""CID7694165""",Bike,Indirapuram,Dwarka Sector 21,12.9,null,1,AC is not working,null,null,null,null,null,null,null,null,null
+07-02-2024,20:13:36,"""CNR4868865""",Completed,"""CID1509281""",Auto,Jasola,Mayur Vihar,16.9,37.8,null,null,null,null,null,null,646,37.78,4.7,4.0,Cash
+08-02-2024,01:09:33,"""CNR4960769""",No Driver Found,"""CID9709239""",Go Mini,null,Ghaziabad,null,null,null,null,null,null,null,null,null,null,null,null,null
+08-02-2024,23:57:48,"""CNR8789059""",Completed,"""CID8724736""",Bike,Sohna Road,Nehru Place,5.8,10.0,null,null,null,null,null,null,68,2.94,3.7,3.5,Credit Card
+09-02-2024,18:49:47,"""CNR7135604""",Completed,"""CID9106414""",Auto,Faridabad Sector 15,Pitampura,15.9,40.2,null,null,null,null,null,null,212,11.79,3.8,3.4,UPI
+10-02-2024,05:47:54,"""CNR3283453""",Completed,"""CID6709592""",Go Sedan,Golf Course Road,Karol Bagh,11.0,10.6,null,null,null,null,null,null,644,31.00,5.0,4.6,UPI
+10-02-2024,08:54:41,"""CNR4407324""",Cancelled by Customer,"""CID3499380""",Go Mini,Huda City Centre,Lajpat Nagar,15.5,null,1,Wrong Address,null,null,null,null,null,null,null,null,null
+11-02-2024,09:08:57,"""CNR7187087""",No Driver Found,"""CID5429325""",Go Mini,Jasola,Rohini,null,null,null,null,null,null,null,null,null,null,null,null,null
+12-02-2024,07:23:54,"""CNR9276901""",Completed,"""CID4037389""",Bike,Jasola,Indirapuram,13.3,19.7,null,null,null,null,null,null,389,35.08,4.5,3.0,UPI
+13-02-2024,02:11:22,"""CNR3372250""",No Driver Found,"""CID6275105""",Auto,Jasola,Indirapuram,null,null,null,null,null,null,null,null,null,null,null,null,null
+13-02-2024,20:07:03,"""CNR5394503""",Completed,"""CID1635780""",Bike,null,Huda City Centre,12.3,28.6,null,null,null,null,null,null,373,42.62,4.1,3.6,UPI
+14-02-2024,12:35:01,"""CNR7497340""",Completed,"""CID5064751""",Go Sedan,Khan Market,Karol Bagh,12.1,18.8,null,null,null,null,null,null,458,19.72,3.5,4.6,UPI
+15-02-2024,19:36:05,"""CNR6658279""",Cancelled by Driver,"""CID2656400""",Bike,Jasola,IGI Airport,14.4,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+16-02-2024,02:51:47,"""CNR6628775""",Incomplete,null,Auto,Anand Vihar ISBT,Ghaziabad,11.2,30.8,null,null,null,null,1,Other Issue,176,10.02,null,null,Debit Card
+16-02-2024,20:47:02,"""CNR8800751""",Cancelled by Driver,"""CID3629481""",Bike,Nehru Place,Udyog Vihar,2.7,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+17-02-2024,23:41:32,"""CNR3849030""",Completed,"""CID9004114""",Premier Sedan,Okhla,Huda City Centre,14.5,19.8,null,null,null,null,null,null,1254,44.84,4.4,4.9,UPI
+18-02-2024,19:41:07,"""CNR3214758""",No Driver Found,"""CID4840410""",Auto,New Delhi Railway Station,Cyber Hub,null,null,null,null,null,null,null,null,null,null,null,null,null
+19-02-2024,21:03:21,"""CNR4471384""",Completed,"""CID2243223""",Bike,Rajouri Garden,Pitampura,2.9,34.3,null,null,null,null,null,null,475,38.79,4.8,3.9,Credit Card
+19-02-2024,21:53:55,"""CNR6566905""",Completed,"""CID1455163""",Go Mini,null,Barakhamba Road,5.3,37.2,null,null,null,null,null,null,771,42.50,4.7,4.0,Debit Card
+20-02-2024,22:25:08,"""CNR2098066""",Completed,"""CID9478371""",Premier Sedan,Mayur Vihar,New Delhi Railway Station,16.9,21.4,null,null,null,null,null,null,1141,41.40,4.7,4.1,Debit Card
+21-02-2024,02:28:40,"""CNR2644012""",Incomplete,"""CID1195281""",Go Mini,Barakhamba Road,Laxmi Nagar,18.6,35.4,null,null,null,null,1,Customer Demand,639,42.62,null,null,UPI
+21-02-2024,13:45:32,"""CNR3914837""",Incomplete,"""CID7826983""",Auto,Saket,Tilak Nagar,9.1,24.1,null,null,null,null,1,Other Issue,679,44.25,null,null,Credit Card
+22-02-2024,13:56:05,"""CNR1072424""",Completed,"""CID4506303""",Go Mini,Janakpuri,MG Road,16.8,27.9,null,null,null,null,null,null,524,29.45,3.7,4.2,UPI
+23-02-2024,21:52:48,"""CNR3527636""",Completed,"""CID7947058""",Auto,null,Ghaziabad,20.0,27.1,null,null,null,null,null,null,700,38.03,3.8,4.2,Cash
+24-02-2024,15:07:14,"""CNR4954142""",Cancelled by Driver,"""CID5314995""",Bike,Tilak Nagar,Janakpuri,2.5,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+24-02-2024,20:59:12,"""CNR8350736""",Completed,"""CID6355070""",Bike,Jasola,Kashmere Gate,11.5,34.7,null,null,null,null,null,null,293,23.23,4.8,3.5,Cash
+25-02-2024,10:32:31,"""CNR6876815""",Completed,"""CID6468315""",Go Sedan,MG Road,IGI Airport,6.0,17.6,null,null,null,null,null,null,224,9.13,4.0,4.2,UPI
+26-02-2024,22:08:17,"""CNR4834346""",Completed,null,Go Sedan,Laxmi Nagar,Khan Market,7.2,27.3,null,null,null,null,null,null,356,13.85,3.9,3.7,Uber Wallet
+27-02-2024,09:17:09,"""CNR4282408""",Completed,"""CID2796721""",Premier Sedan,IGI Airport,Shahdara,5.6,35.1,null,null,null,null,null,null,1296,47.32,4.8,3.9,Cash
+27-02-2024,22:07:22,"""CNR2366316""",Cancelled by Customer,"""CID6735746""",Go Mini,Hauz Khas,Laxmi Nagar,3.9,null,1,Driver is not moving towards pickup location,null,null,null,null,null,null,null,null,null
+28-02-2024,02:44:29,"""CNR5768765""",Completed,"""CID8460309""",Auto,Okhla,Barakhamba Road,10.3,10.2,null,null,null,null,null,null,90,3.18,3.5,4.1,UPI
+29-02-2024,14:31:51,"""CNR5014534""",Cancelled by Driver,"""CID3160439""",Go Mini,Noida Film City,Cyber Hub,4.7,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+01-03-2024,08:46:27,"""CNR5422907""",Completed,"""CID6226679""",Bike,Huda City Centre,Ghaziabad,2.8,38.1,null,null,null,null,null,null,236,18.15,4.9,3.9,UPI
+01-03-2024,23:42:40,"""CNR8737057""",Cancelled by Customer,"""CID1877771""",Auto,Nehru Place,Cyber Hub,10.0,null,1,Change of plans,null,null,null,null,null,null,null,null,null
+02-03-2024,11:58:28,"""CNR9087390""",Completed,"""CID1538051""",Go Sedan,Rajouri Garden,AIIMS,10.9,41.0,null,null,null,null,null,null,318,12.86,3.4,4.5,UPI
+03-03-2024,05:38:51,"""CNR9786203""",Completed,"""CID5017833""",Bike,Huda City Centre,Kashmere Gate,15.8,22.2,null,null,null,null,null,null,261,22.04,3.1,4.8,Cash
+03-03-2024,14:35:45,"""CNR8315152""",No Driver Found,"""CID4888495""",Go Mini,Vaishali,Chandni Chowk,null,null,null,null,null,null,null,null,null,null,null,null,null
+04-03-2024,11:53:41,"""CNR7960946""",Completed,"""CID7604518""",Premier Sedan,Udyog Vihar,Chandni Chowk,18.4,31.6,null,null,null,null,null,null,1227,45.54,4.9,4.0,Cash
+05-03-2024,07:08:15,"""CNR4371143""",Completed,"""CID5064751""",Premier Sedan,AIIMS,Rajouri Garden,8.6,19.1,null,null,null,null,null,null,1046,39.81,4.5,4.9,UPI
+06-03-2024,03:44:26,"""CNR6056223""",No Driver Found,"""CID6355070""",Go Sedan,Barakhamba Road,Rohini,null,null,null,null,null,null,null,null,null,null,null,null,null
+06-03-2024,07:54:19,"""CNR2188627""",Cancelled by Driver,"""CID4164233""",Bike,Laxmi Nagar,IGI Airport,16.6,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+07-03-2024,04:46:50,"""CNR6075131""",Cancelled by Driver,"""CID5884796""",Auto,Laxmi Nagar,Vasant Kunj,17.4,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+08-03-2024,06:28:54,"""CNR5671199""",Cancelled by Driver,null,eBike,Indirapuram,Dwarka Sector 21,3.9,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+09-03-2024,05:48:42,"""CNR3277794""",Completed,"""CID9106414""",Premier Sedan,AIIMS,Barakhamba Road,17.1,10.6,null,null,null,null,null,null,90,2.19,3.1,3.4,Debit Card
+09-03-2024,08:37:05,"""CNR5194761""",Cancelled by Driver,"""CID6027933""",Premier Sedan,Punjabi Bagh,Dwarka Sector 21,19.5,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+10-03-2024,13:49:39,"""CNR9846863""",Incomplete,"""CID7690657""",Go Mini,IGI Airport,Udyog Vihar,16.6,23.0,null,null,null,null,1,Vehicle Breakdown,814,47.01,null,null,Credit Card
+11-03-2024,22:33:33,"""CNR2687981""",Cancelled by Driver,"""CID8146526""",Go Sedan,null,Vasant Kunj,3.0,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+12-03-2024,06:51:54,"""CNR9308401""",Incomplete,"""CID3743993""",Go Sedan,Hauz Khas,Chandni Chowk,13.0,36.2,null,null,null,null,1,Other Issue,323,16.61,null,null,Credit Card
+12-03-2024,06:53:12,"""CNR4668948""",Completed,"""CID1863760""",Go Sedan,AIIMS,MG Road,2.9,22.6,null,null,null,null,null,null,487,18.87,4.4,4.8,Cash
+13-03-2024,04:23:00,"""CNR4278946""",No Driver Found,"""CID1195281""",Bike,Saket,Jasola,null,null,null,null,null,null,null,null,null,null,null,null,null
+14-03-2024,04:18:21,"""CNR3954771""",No Driver Found,"""CID8833048""",eBike,MG Road,Kashmere Gate,null,null,null,null,null,null,null,null,null,null,null,null,null
+14-03-2024,14:15:06,"""CNR7519608""",No Driver Found,"""CID4729455""",Auto,Noida Film City,Cyber Hub,null,null,null,null,null,null,null,null,null,null,null,null,null
+15-03-2024,03:25:40,"""CNR9644762""",No Driver Found,"""CID7666330""",Go Mini,Greater Kailash,Jasola,null,null,null,null,null,null,null,null,null,null,null,null,null
+16-03-2024,15:55:36,"""CNR4745293""",Completed,"""CID1068520""",Go Mini,Janakpuri,Greater Kailash,16.7,29.8,null,null,null,null,null,null,551,32.88,3.9,4.1,Credit Card
+17-03-2024,06:18:28,"""CNR6949389""",Incomplete,"""CID8831344""",Go Mini,Chandni Chowk,Jasola,4.6,34.8,null,null,null,null,1,Other Issue,219,12.73,null,null,Cash
+17-03-2024,16:55:54,"""CNR6367841""",Completed,"""CID7401869""",Premier Sedan,IGI Airport,Faridabad Sector 15,17.0,31.6,null,null,null,null,null,null,257,7.83,3.9,3.9,UPI
+18-03-2024,08:44:16,"""CNR1765203""",Cancelled by Driver,"""CID2445809""",Go Sedan,Jasola,Connaught Place,6.1,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+19-03-2024,01:18:41,"""CNR7324289""",Completed,"""CID1624227""",Go Sedan,Rohini,Cyber Hub,4.6,18.0,null,null,null,null,null,null,156,5.98,4.8,3.6,UPI
+20-03-2024,09:35:17,"""CNR2988949""",Completed,"""CID1877771""",Premier Sedan,Okhla,IGI Airport,7.0,28.4,null,null,null,null,null,null,1022,41.28,3.5,4.9,Cash
+20-03-2024,15:32:26,"""CNR2230908""",Completed,"""CID3860153""",eBike,null,Okhla,18.0,42.1,null,null,null,null,null,null,168,18.30,4.0,4.4,UPI
+21-03-2024,15:44:41,"""CNR4851182""",No Driver Found,"""CID7233459""",Go Mini,Khan Market,AIIMS,null,null,null,null,null,null,null,null,null,null,null,null,null
+22-03-2024,18:20:21,"""CNR1935605""",Completed,"""CID4134743""",eBike,Shahdara,Mayur Vihar,7.6,16.8,null,null,null,null,null,null,358,42.38,4.3,3.5,Uber Wallet
+22-03-2024,23:10:05,"""CNR9686168""",Completed,"""CID6366335""",Premier Sedan,Janakpuri,Nehru Place,17.9,11.7,null,null,null,null,null,null,316,11.87,4.6,4.0,Cash
+23-03-2024,11:11:35,"""CNR3105094""",Completed,null,Go Sedan,Noida Sector 18,MG Road,8.9,11.9,null,null,null,null,null,null,213,9.71,3.2,4.1,Uber Wallet
+24-03-2024,22:08:29,"""CNR4527258""",Completed,"""CID1856668""",Premier Sedan,null,Okhla,7.4,35.2,null,null,null,null,null,null,861,38.66,4.3,3.3,UPI
+25-03-2024,17:36:20,"""CNR2474271""",Completed,"""CID2977249""",Auto,Hauz Khas,Cyber Hub,18.0,22.4,null,null,null,null,null,null,206,12.34,3.1,4.2,UPI
+25-03-2024,20:19:01,"""CNR9458069""",Completed,"""CID7103153""",Go Sedan,Saket,Nehru Place,8.1,40.1,null,null,null,null,null,null,855,45.33,3.8,3.9,UPI
+26-03-2024,17:38:26,"""CNR3915190""",Completed,"""CID9709239""",Auto,Laxmi Nagar,Rohini,7.2,43.3,null,null,null,null,null,null,509,38.07,4.2,4.4,UPI
+27-03-2024,18:10:23,"""CNR4963652""",No Driver Found,"""CID4358033""",Go Sedan,Nehru Place,Lajpat Nagar,null,null,null,null,null,null,null,null,null,null,null,null,null
+28-03-2024,02:42:29,"""CNR9188117""",Cancelled by Customer,"""CID5820033""",Auto,Dwarka Sector 21,Pitampura,9.3,null,1,Driver is not moving towards pickup location,null,null,null,null,null,null,null,null,null
+28-03-2024,19:18:12,"""CNR3769412""",Cancelled by Driver,"""CID6018911""",Auto,Punjabi Bagh,Khan Market,16.9,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+29-03-2024,06:53:54,"""CNR3718506""",Incomplete,"""CID5281220""",Go Mini,Noida Film City,Connaught Place,12.4,39.2,null,null,null,null,1,Other Issue,550,32.61,null,null,Cash
+30-03-2024,00:39:50,"""CNR2456065""",Completed,"""CID1635780""",Auto,Pitampura,Chandni Chowk,12.0,36.0,null,null,null,null,null,null,567,30.93,3.2,4.4,Uber Wallet
+31-03-2024,18:53:21,"""CNR2749819""",Completed,"""CID9965802""",Go Mini,null,Huda City Centre,4.7,41.3,null,null,null,null,null,null,185,10.12,3.3,4.1,UPI
+31-03-2024,21:41:41,"""CNR3102436""",Cancelled by Driver,"""CID6883371""",Go Sedan,Anand Vihar ISBT,Udyog Vihar,6.3,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+01-04-2024,04:55:14,"""CNR1506291""",Completed,"""CID2558669""",Go Mini,Sohna Road,Janakpuri,9.3,37.1,null,null,null,null,null,null,566,36.28,3.6,4.8,UPI
+02-04-2024,07:01:23,"""CNR2811258""",No Driver Found,"""CID3106561""",Auto,Okhla,Saket,null,null,null,null,null,null,null,null,null,null,null,null,null
+02-04-2024,20:11:25,"""CNR4017064""",Completed,"""CID2986711""",Premier Sedan,Vasant Kunj,New Delhi Railway Station,3.8,29.3,null,null,null,null,null,null,528,17.08,4.6,3.2,UPI
+03-04-2024,10:36:42,"""CNR6280453""",Completed,"""CID6883371""",Auto,Pitampura,Connaught Place,14.8,27.3,null,null,null,null,null,null,367,25.62,3.2,4.0,Debit Card
+04-04-2024,01:55:26,"""CNR1007791""",Cancelled by Driver,"""CID8006244""",Auto,Pitampura,Vasant Kunj,4.3,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+05-04-2024,03:46:22,"""CNR3061323""",Incomplete,"""CID5468879""",eBike,Okhla,Huda City Centre,19.4,21.0,null,null,null,null,1,Vehicle Breakdown,214,17.43,null,null,Cash
+05-04-2024,06:02:48,"""CNR5713728""",Completed,"""CID6487960""",Auto,Mayur Vihar,Shahdara,5.7,37.5,null,null,null,null,null,null,664,37.82,4.7,4.8,Uber Wallet
+06-04-2024,12:41:11,"""CNR1485192""",Cancelled by Customer,"""CID9965802""",Auto,Noida Sector 18,Greater Kailash,15.4,null,1,Driver is not moving towards pickup location,null,null,null,null,null,null,null,null,null
+07-04-2024,18:30:33,"""CNR4057609""",No Driver Found,"""CID5041621""",Auto,Greater Kailash,New Delhi Railway Station,null,null,null,null,null,null,null,null,null,null,null,null,null
+08-04-2024,03:24:51,"""CNR2741449""",Completed,"""CID7317448""",Uber XL,IGI Airport,Barakhamba Road,8.1,40.8,null,null,null,null,null,null,1014,33.95,4.1,3.9,Cash
+08-04-2024,05:42:17,"""CNR2031497""",Completed,"""CID4045776""",Premier Sedan,Connaught Place,Chandni Chowk,11.9,32.8,null,null,null,null,null,null,216,7.45,3.1,4.6,UPI
+09-04-2024,20:26:42,"""CNR4526124""",Cancelled by Driver,"""CID8902111""",Premier Sedan,Saket,Greater Kailash,19.8,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+10-04-2024,23:18:18,"""CNR4487235""",Completed,"""CID8910737""",Go Sedan,Golf Course Road,Pitampura,8.1,44.1,null,null,null,null,null,null,677,35.99,4.4,4.6,Cash
+11-04-2024,14:35:50,"""CNR4189274""",Completed,"""CID4134689""",Auto,Vaishali,Karol Bagh,14.8,23.6,null,null,null,null,null,null,420,31.56,4.5,4.0,UPI
+11-04-2024,14:46:41,"""CNR8733884""",Completed,"""CID5043664""",Go Sedan,Sohna Road,Faridabad Sector 15,19.5,15.5,null,null,null,null,null,null,939,45.82,3.1,3.4,Cash
+12-04-2024,07:01:24,"""CNR4123213""",Completed,"""CID1644720""",Auto,Noida Film City,Udyog Vihar,7.7,14.2,null,null,null,null,null,null,295,15.98,4.9,3.6,Cash
+13-04-2024,12:14:58,"""CNR8935253""",Completed,"""CID4475653""",Bike,Anand Vihar ISBT,Karol Bagh,8.4,18.4,null,null,null,null,null,null,429,47.41,3.6,3.0,UPI
+13-04-2024,23:22:57,"""CNR6262381""",Completed,"""CID8875176""",Go Mini,Punjabi Bagh,New Delhi Railway Station,12.6,22.5,null,null,null,null,null,null,314,19.69,4.0,4.8,Debit Card
+14-04-2024,19:54:47,"""CNR5575262""",Cancelled by Customer,"""CID9673865""",Bike,IGI Airport,Okhla,4.3,null,1,AC is not working,null,null,null,null,null,null,null,null,null
+15-04-2024,07:41:35,"""CNR8614971""",Completed,"""CID3356861""",Bike,Golf Course Road,New Delhi Railway Station,3.2,15.5,null,null,null,null,null,null,401,32.41,4.6,4.8,Debit Card
+16-04-2024,09:49:07,"""CNR4645368""",Incomplete,"""CID1863760""",Go Sedan,Saket,Cyber Hub,18.4,34.3,null,null,null,null,1,Vehicle Breakdown,91,2.94,null,null,Cash
+16-04-2024,15:07:42,"""CNR8367209""",Completed,"""CID4134689""",eBike,New Delhi Railway Station,Ghaziabad,15.6,14.7,null,null,null,null,null,null,316,34.83,3.5,3.0,UPI
+17-04-2024,07:22:24,"""CNR7714300""",Completed,"""CID8321042""",Auto,Rohini,Connaught Place,7.8,36.4,null,null,null,null,null,null,481,33.78,4.3,3.1,Cash
+18-04-2024,08:29:27,"""CNR8528488""",Incomplete,"""CID5130997""",Go Mini,null,Saket,11.8,43.2,null,null,null,null,1,Other Issue,776,41.14,null,null,Cash
+19-04-2024,07:45:06,"""CNR8019959""",Completed,"""CID6275105""",Go Mini,IGI Airport,Janakpuri,5.2,37.4,null,null,null,null,null,null,109,3.75,4.1,4.4,UPI
+19-04-2024,20:21:48,"""CNR3244399""",Completed,"""CID8831344""",Go Mini,Golf Course Road,Janakpuri,17.6,32.6,null,null,null,null,null,null,218,9.37,3.8,4.0,UPI
+20-04-2024,02:41:27,"""CNR4514380""",Completed,"""CID5391591""",Bike,Hauz Khas,Udyog Vihar,7.7,18.1,null,null,null,null,null,null,268,26.73,4.6,3.2,Debit Card
+21-04-2024,14:27:15,"""CNR3690658""",Completed,"""CID6273374""",Auto,Anand Vihar ISBT,Karol Bagh,7.1,22.0,null,null,null,null,null,null,556,29.93,4.1,4.5,Credit Card
+21-04-2024,20:00:48,"""CNR6228605""",Completed,"""CID7137170""",Auto,Vaishali,Cyber Hub,7.9,33.1,null,null,null,null,null,null,197,11.56,3.4,4.1,Cash
+22-04-2024,11:43:13,"""CNR7675653""",Completed,"""CID7840434""",eBike,Sohna Road,Indirapuram,2.3,17.6,null,null,null,null,null,null,104,9.35,4.9,3.3,Debit Card
+23-04-2024,08:48:05,"""CNR4304032""",Incomplete,"""CID2411337""",Bike,Greater Kailash,Huda City Centre,6.4,30.5,null,null,null,null,1,Other Issue,160,12.99,null,null,Uber Wallet
+24-04-2024,00:42:04,"""CNR4010266""",Cancelled by Customer,"""CID7137170""",Auto,Pitampura,Lajpat Nagar,9.8,null,1,Wrong Address,null,null,null,null,null,null,null,null,null
+24-04-2024,03:22:22,"""CNR6984097""",Completed,null,Go Mini,Khan Market,Chandni Chowk,9.4,19.6,null,null,null,null,null,null,239,10.48,4.0,4.3,Debit Card
+25-04-2024,13:10:53,"""CNR8639143""",Cancelled by Driver,"""CID8343005""",Uber XL,Tilak Nagar,Shahdara,10.5,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+26-04-2024,10:14:51,"""CNR1249836""",Completed,"""CID2445809""",Go Sedan,Karol Bagh,Noida Sector 18,19.5,25.9,null,null,null,null,null,null,799,43.46,4.2,3.7,Cash
+27-04-2024,03:28:54,"""CNR3000683""",Completed,"""CID9457671""",Bike,Saket,Mayur Vihar,4.0,27.1,null,null,null,null,null,null,252,20.60,4.8,4.5,Uber Wallet
+27-04-2024,11:16:05,"""CNR6626191""",Completed,"""CID4037389""",Premier Sedan,AIIMS,Janakpuri,8.6,28.9,null,null,null,null,null,null,431,14.41,3.2,4.7,UPI
+28-04-2024,00:09:20,"""CNR1049045""",No Driver Found,"""CID8939526""",Go Sedan,Pitampura,Rajouri Garden,null,null,null,null,null,null,null,null,null,null,null,null,null
+29-04-2024,08:54:18,"""CNR4740313""",Cancelled by Driver,"""CID3731972""",Go Sedan,Kashmere Gate,Tilak Nagar,9.4,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+30-04-2024,18:46:42,"""CNR8033351""",Completed,"""CID5282281""",Premier Sedan,Vasant Kunj,Shahdara,9.0,19.7,null,null,null,null,null,null,627,21.04,3.1,4.6,Cash
+30-04-2024,21:19:02,"""CNR9504138""",Incomplete,null,Premier Sedan,Pitampura,Ghaziabad,2.7,44.6,null,null,null,null,1,Other Issue,116,3.43,null,null,Credit Card
+01-05-2024,20:07:34,"""CNR1630683""",Completed,"""CID3535803""",Go Sedan,Faridabad Sector 15,Anand Vihar ISBT,17.5,43.6,null,null,null,null,null,null,116,3.80,4.0,3.3,Debit Card
+02-05-2024,18:02:30,"""CNR8794978""",Incomplete,"""CID8994743""",Auto,Sohna Road,Mayur Vihar,15.5,14.1,null,null,null,null,1,Other Issue,651,40.90,null,null,Uber Wallet
+02-05-2024,22:34:21,"""CNR4593375""",Completed,"""CID4330834""",Go Sedan,Indirapuram,Laxmi Nagar,14.8,18.3,null,null,null,null,null,null,1039,45.84,4.0,4.7,Credit Card
+03-05-2024,06:45:00,"""CNR9328398""",Completed,"""CID7139803""",Premier Sedan,Golf Course Road,Laxmi Nagar,19.6,29.2,null,null,null,null,null,null,874,34.47,4.0,4.3,Cash
+04-05-2024,04:16:08,"""CNR1838052""",Cancelled by Driver,"""CID8724736""",Go Mini,Shahdara,Pitampura,3.1,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+05-05-2024,06:14:17,"""CNR8240472""",Completed,"""CID2021005""",Premier Sedan,Vaishali,Greater Kailash,12.2,37.8,null,null,null,null,null,null,1021,46.80,4.0,4.4,UPI
+05-05-2024,18:28:42,"""CNR6570744""",Completed,"""CID7925295""",Bike,Vaishali,Chandni Chowk,18.0,38.2,null,null,null,null,null,null,291,26.06,4.5,3.9,Cash
+06-05-2024,15:10:05,"""CNR1178690""",Cancelled by Customer,"""CID5701491""",Go Sedan,Huda City Centre,Okhla,9.3,null,1,Change of plans,null,null,null,null,null,null,null,null,null
+07-05-2024,01:31:41,"""CNR9553195""",Completed,"""CID2637368""",Go Mini,Cyber Hub,Vasant Kunj,3.9,34.1,null,null,null,null,null,null,444,21.00,4.3,3.7,Credit Card
+08-05-2024,16:39:13,"""CNR6704045""",Completed,"""CID1455163""",Go Mini,Pitampura,Noida Film City,14.7,15.3,null,null,null,null,null,null,626,33.79,4.3,3.0,UPI
+08-05-2024,17:15:15,"""CNR5289575""",No Driver Found,"""CID4539748""",Auto,Punjabi Bagh,Tilak Nagar,null,null,null,null,null,null,null,null,null,null,null,null,null
+09-05-2024,09:16:46,"""CNR3644988""",Completed,"""CID5508204""",Go Mini,Pitampura,Noida Sector 18,17.9,40.1,null,null,null,null,null,null,448,29.88,3.0,3.8,UPI
+10-05-2024,13:54:43,"""CNR4776518""",Cancelled by Driver,"""CID5067950""",Bike,Anand Vihar ISBT,Greater Kailash,13.9,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+11-05-2024,04:50:00,"""CNR8230894""",Completed,"""CID6640989""",Auto,Chandni Chowk,Pitampura,18.0,30.4,null,null,null,null,null,null,276,19.08,3.3,3.9,Debit Card
+11-05-2024,05:27:38,"""CNR2803384""",Incomplete,"""CID6018911""",Auto,Dwarka Sector 21,Pitampura,13.3,31.6,null,null,null,null,1,Vehicle Breakdown,532,37.32,null,null,Cash
+12-05-2024,19:58:19,"""CNR2132663""",Completed,"""CID2021005""",Go Sedan,Ghaziabad,Cyber Hub,5.5,39.3,null,null,null,null,null,null,345,17.85,4.3,3.1,Debit Card
+13-05-2024,04:48:54,"""CNR3235163""",Completed,"""CID4652911""",Auto,Lajpat Nagar,MG Road,6.7,36.9,null,null,null,null,null,null,69,2.42,4.5,4.3,UPI
+13-05-2024,21:28:11,"""CNR3935238""",Completed,"""CID5833741""",Bike,Connaught Place,Shahdara,20.0,22.6,null,null,null,null,null,null,291,25.36,3.5,3.3,Cash
+14-05-2024,00:37:19,"""CNR1424240""",Completed,"""CID2741350""",Auto,Okhla,AIIMS,4.6,19.7,null,null,null,null,null,null,76,2.19,3.5,4.8,Cash
+15-05-2024,02:10:24,"""CNR6672939""",Completed,"""CID5623781""",Premier Sedan,Saket,Udyog Vihar,6.3,29.6,null,null,null,null,null,null,1000,36.91,3.6,3.2,Cash
+16-05-2024,03:03:38,"""CNR5234944""",Completed,"""CID7233459""",Bike,IGI Airport,Barakhamba Road,19.2,32.0,null,null,null,null,null,null,236,19.88,4.8,4.4,UPI
+16-05-2024,05:58:34,"""CNR6158088""",No Driver Found,null,Go Sedan,Karol Bagh,New Delhi Railway Station,null,null,null,null,null,null,null,null,null,null,null,null,null
+17-05-2024,04:39:45,"""CNR9304907""",Incomplete,"""CID6238138""",Go Sedan,IGI Airport,Golf Course Road,19.6,37.4,null,null,null,null,1,Vehicle Breakdown,282,11.79,null,null,Cash
+18-05-2024,21:48:43,"""CNR3707748""",Completed,"""CID7889028""",Go Mini,Tilak Nagar,Laxmi Nagar,10.9,18.4,null,null,null,null,null,null,117,4.25,3.6,4.0,UPI
+19-05-2024,03:34:48,"""CNR7088418""",Completed,"""CID4167282""",Go Mini,null,Noida Sector 18,4.6,42.0,null,null,null,null,null,null,171,8.53,4.3,3.5,UPI
+19-05-2024,22:12:45,"""CNR8822707""",Completed,"""CID8724279""",Auto,Hauz Khas,Huda City Centre,4.5,17.9,null,null,null,null,null,null,232,11.12,3.8,3.5,UPI
+20-05-2024,15:11:29,"""CNR8278887""",Completed,"""CID6355923""",Go Mini,Janakpuri,Nehru Place,10.2,36.9,null,null,null,null,null,null,114,4.98,3.9,4.6,UPI
+21-05-2024,04:56:19,"""CNR9253350""",Incomplete,"""CID2637368""",Go Mini,Laxmi Nagar,IGI Airport,14.9,24.1,null,null,null,null,1,Other Issue,690,33.99,null,null,Cash
+22-05-2024,02:08:23,"""CNR6475109""",Cancelled by Customer,"""CID8160052""",Auto,New Delhi Railway Station,Lajpat Nagar,14.2,null,1,Driver asked to cancel,null,null,null,null,null,null,null,null,null
+22-05-2024,18:58:10,"""CNR3684597""",Incomplete,"""CID4729455""",Go Mini,Vaishali,Jasola,15.2,30.2,null,null,null,null,1,Customer Demand,195,10.47,null,null,UPI
+23-05-2024,12:12:11,"""CNR1625551""",Completed,"""CID9478371""",Go Mini,Sohna Road,Punjabi Bagh,6.0,15.9,null,null,null,null,null,null,587,30.02,3.6,3.6,Cash
+24-05-2024,05:26:18,"""CNR3000604""",Completed,"""CID2491097""",Auto,MG Road,Noida Sector 18,6.4,21.3,null,null,null,null,null,null,221,14.72,3.4,3.2,Cash
+24-05-2024,22:46:50,"""CNR3039838""",Completed,"""CID5803220""",Bike,Rajouri Garden,AIIMS,6.6,35.4,null,null,null,null,null,null,97,6.96,3.3,3.4,Uber Wallet
+25-05-2024,06:33:09,"""CNR7097194""",Incomplete,"""CID6275105""",Go Mini,Tilak Nagar,Hauz Khas,12.8,12.4,null,null,null,null,1,Other Issue,263,13.91,null,null,Cash
+26-05-2024,08:17:11,"""CNR8142186""",Cancelled by Driver,"""CID4195679""",Premier Sedan,Golf Course Road,Dwarka Sector 21,18.0,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+27-05-2024,17:47:11,"""CNR9477055""",Incomplete,"""CID4888495""",Go Mini,Nehru Place,Greater Kailash,17.4,18.0,null,null,null,null,1,Customer Demand,833,42.76,null,null,UPI
+27-05-2024,18:00:24,"""CNR4030940""",No Driver Found,"""CID8714262""",Go Mini,null,MG Road,null,null,null,null,null,null,null,null,null,null,null,null,null
+28-05-2024,08:12:48,"""CNR2598402""",Cancelled by Driver,null,eBike,Rajouri Garden,Jasola,14.0,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+29-05-2024,08:41:01,"""CNR1912337""",Completed,"""CID9051192""",eBike,Dwarka Sector 21,AIIMS,18.7,15.7,null,null,null,null,null,null,216,20.59,4.4,3.2,UPI
+30-05-2024,00:57:40,"""CNR1439905""",Completed,"""CID4539748""",Premier Sedan,Vasant Kunj,Greater Kailash,7.0,34.9,null,null,null,null,null,null,527,22.01,3.3,4.2,UPI
+30-05-2024,04:48:59,"""CNR8308594""",Completed,"""CID7261511""",Auto,Anand Vihar ISBT,Rajouri Garden,13.0,27.7,null,null,null,null,null,null,264,15.73,3.6,4.1,UPI
+31-05-2024,21:43:28,"""CNR5587265""",Completed,"""CID5645633""",Auto,Mayur Vihar,Rajouri Garden,6.0,15.8,null,null,null,null,null,null,144,6.90,3.5,4.9,UPI
+01-06-2024,00:09:36,"""CNR2973575""",Completed,"""CID8207006""",Bike,Indirapuram,Vasant Kunj,4.7,17.2,null,null,null,null,null,null,413,39.46,4.0,3.9,Uber Wallet
+01-06-2024,05:31:09,"""CNR4874036""",Cancelled by Customer,"""CID5013554""",Auto,Punjabi Bagh,Rohini,14.4,null,1,Change of plans,null,null,null,null,null,null,null,null,null
+02-06-2024,01:55:34,"""CNR6328382""",Completed,"""CID4898926""",Go Mini,Noida Sector 18,Connaught Place,10.2,22.5,null,null,null,null,null,null,241,13.97,3.6,3.6,Cash
+03-06-2024,02:56:13,"""CNR3306382""",Completed,"""CID9965802""",Go Sedan,Nehru Place,New Delhi Railway Station,14.5,11.9,null,null,null,null,null,null,850,44.63,3.4,4.2,Debit Card
+04-06-2024,06:12:07,"""CNR2812855""",Completed,"""CID1918068""",Auto,Connaught Place,Vasant Kunj,4.1,42.9,null,null,null,null,null,null,179,9.30,4.5,4.6,Cash
+04-06-2024,22:49:40,"""CNR4562776""",Cancelled by Driver,"""CID6847065""",Bike,Okhla,Sohna Road,18.5,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+05-06-2024,08:03:07,"""CNR8237387""",No Driver Found,null,Auto,Anand Vihar ISBT,Vaishali,null,null,null,null,null,null,null,null,null,null,null,null,null
+06-06-2024,01:09:28,"""CNR2722954""",Completed,"""CID1366128""",Go Mini,Punjabi Bagh,Vasant Kunj,3.9,15.7,null,null,null,null,null,null,153,8.25,4.7,4.0,Debit Card
+07-06-2024,01:34:08,"""CNR5461852""",Completed,"""CID5931781""",Bike,Cyber Hub,Dwarka Sector 21,19.5,35.2,null,null,null,null,null,null,287,24.62,3.6,4.5,UPI
+07-06-2024,01:35:41,"""CNR8281935""",Cancelled by Driver,null,Auto,Udyog Vihar,New Delhi Railway Station,17.0,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+08-06-2024,17:49:06,"""CNR3673970""",Completed,"""CID3747729""",Premier Sedan,Barakhamba Road,Noida Film City,3.7,19.8,null,null,null,null,null,null,743,31.19,3.5,4.9,UPI
+09-06-2024,16:25:20,"""CNR4874382""",Completed,"""CID8329400""",Auto,Vaishali,MG Road,9.5,32.0,null,null,null,null,null,null,528,37.91,3.6,3.4,Cash
+10-06-2024,01:11:35,"""CNR9628759""",Completed,"""CID7807856""",Go Mini,Punjabi Bagh,Lajpat Nagar,2.8,14.0,null,null,null,null,null,null,475,26.60,3.7,4.5,Cash
+10-06-2024,23:38:33,"""CNR1000919""",Completed,"""CID5314995""",Go Mini,Greater Kailash,Pitampura,18.7,37.6,null,null,null,null,null,null,800,44.15,4.5,4.1,Credit Card
+11-06-2024,06:17:09,"""CNR3087470""",Completed,"""CID1624227""",Go Mini,null,Faridabad Sector 15,16.5,30.3,null,null,null,null,null,null,435,24.68,3.8,4.0,Uber Wallet
+12-06-2024,14:53:53,"""CNR7339147""",Cancelled by Customer,"""CID4286761""",Go Sedan,Karol Bagh,Huda City Centre,8.5,null,1,Change of plans,null,null,null,null,null,null,null,null,null
+12-06-2024,17:15:30,"""CNR4335613""",Cancelled by Driver,"""CID2732191""",eBike,Lajpat Nagar,Faridabad Sector 15,5.0,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+13-06-2024,08:28:21,"""CNR9981974""",Completed,"""CID4840410""",Go Mini,Khan Market,Vasant Kunj,9.9,17.5,null,null,null,null,null,null,779,38.92,4.5,4.3,Cash
+14-06-2024,10:40:42,"""CNR7827505""",Incomplete,"""CID2558669""",Premier Sedan,Dwarka Sector 21,AIIMS,14.7,23.4,null,null,null,null,1,Customer Demand,860,36.38,null,null,Cash
+15-06-2024,18:09:59,"""CNR3899095""",Completed,"""CID6226679""",Go Sedan,Okhla,Khan Market,13.3,21.9,null,null,null,null,null,null,295,12.52,4.0,4.2,UPI
+15-06-2024,22:18:05,"""CNR8477273""",Completed,"""CID7379268""",Auto,Noida Sector 18,Tilak Nagar,5.1,24.8,null,null,null,null,null,null,781,45.69,3.9,4.4,UPI
+16-06-2024,16:29:07,"""CNR5149088""",Cancelled by Driver,"""CID5820033""",Bike,Anand Vihar ISBT,Connaught Place,8.2,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+17-06-2024,04:25:59,"""CNR5896152""",Completed,"""CID9858639""",Bike,Rajouri Garden,Cyber Hub,18.8,34.3,null,null,null,null,null,null,86,5.89,3.9,3.7,Uber Wallet
+18-06-2024,15:55:11,"""CNR5637492""",Completed,"""CID5701491""",Auto,Cyber Hub,Hauz Khas,16.1,37.6,null,null,null,null,null,null,114,4.52,4.3,4.6,Cash
+18-06-2024,17:05:37,"""CNR6986954""",Cancelled by Driver,"""CID9622374""",Auto,Noida Film City,Barakhamba Road,17.3,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+19-06-2024,12:07:24,"""CNR8548375""",Cancelled by Customer,"""CID9861715""",Go Mini,IGI Airport,AIIMS,12.7,null,1,Change of plans,null,null,null,null,null,null,null,null,null
+20-06-2024,03:00:19,"""CNR2868685""",No Driver Found,"""CID7438712""",Premier Sedan,AIIMS,Janakpuri,null,null,null,null,null,null,null,null,null,null,null,null,null
+21-06-2024,02:38:35,"""CNR7785517""",Cancelled by Driver,"""CID7139803""",Bike,Lajpat Nagar,Rohini,3.9,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+21-06-2024,08:51:07,"""CNR7679587""",Completed,"""CID7441570""",Bike,Vaishali,Khan Market,19.7,18.1,null,null,null,null,null,null,291,25.92,5.0,3.0,Uber Wallet
+22-06-2024,12:00:39,"""CNR5725511""",Completed,"""CID1045073""",Premier Sedan,Indirapuram,Vaishali,2.8,28.6,null,null,null,null,null,null,322,10.48,4.6,4.4,Debit Card
+23-06-2024,05:15:53,"""CNR9411393""",Completed,"""CID9455242""",Premier Sedan,Udyog Vihar,Cyber Hub,18.0,34.3,null,null,null,null,null,null,1149,39.17,3.3,3.0,Uber Wallet
+23-06-2024,14:03:53,"""CNR6338961""",Completed,"""CID1970453""",Go Sedan,Pitampura,Rajouri Garden,14.3,12.6,null,null,null,null,null,null,617,26.92,4.9,3.1,Uber Wallet
+24-06-2024,17:43:00,"""CNR9758979""",Completed,"""CID7057332""",Auto,Okhla,AIIMS,15.8,37.5,null,null,null,null,null,null,376,27.58,3.8,3.4,Uber Wallet
+25-06-2024,03:15:09,"""CNR4828275""",No Driver Found,"""CID2345803""",Premier Sedan,Udyog Vihar,Huda City Centre,null,null,null,null,null,null,null,null,null,null,null,null,null
+26-06-2024,00:24:59,"""CNR4993625""",Completed,"""CID1840123""",Auto,Ghaziabad,Faridabad Sector 15,4.5,40.4,null,null,null,null,null,null,297,16.39,3.6,4.8,Debit Card
+26-06-2024,23:56:53,"""CNR7007154""",Completed,"""CID8724279""",Bike,Lajpat Nagar,New Delhi Railway Station,14.9,17.0,null,null,null,null,null,null,180,17.44,3.3,4.2,Credit Card
+27-06-2024,03:04:29,"""CNR4806800""",Cancelled by Customer,"""CID9761178""",Auto,Rajouri Garden,Karol Bagh,7.9,null,1,Wrong Address,null,null,null,null,null,null,null,null,null
+28-06-2024,15:55:57,"""CNR8066134""",Cancelled by Customer,"""CID1051014""",Premier Sedan,New Delhi Railway Station,Janakpuri,15.9,null,1,Change of plans,null,null,null,null,null,null,null,null,null
+29-06-2024,05:56:06,"""CNR6177509""",Cancelled by Driver,"""CID8738171""",Auto,Mayur Vihar,Noida Film City,19.8,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+29-06-2024,23:23:26,"""CNR8841795""",Cancelled by Driver,"""CID4759288""",Bike,Jasola,Laxmi Nagar,6.6,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+30-06-2024,20:56:31,"""CNR5803494""",Completed,"""CID1392204""",Go Mini,Janakpuri,Ghaziabad,3.3,30.3,null,null,null,null,null,null,119,4.02,3.5,3.2,Credit Card
+01-07-2024,09:29:19,"""CNR4252780""",Completed,"""CID2291674""",Go Mini,Nehru Place,Connaught Place,3.2,19.3,null,null,null,null,null,null,490,31.33,4.7,3.2,Debit Card
+02-07-2024,02:40:21,"""CNR8857648""",Completed,"""CID8556610""",Go Sedan,Ghaziabad,Faridabad Sector 15,17.2,35.8,null,null,null,null,null,null,288,12.92,3.9,3.7,UPI
+02-07-2024,04:13:14,"""CNR1902825""",Completed,"""CID2635331""",Bike,Huda City Centre,Jasola,14.9,23.7,null,null,null,null,null,null,415,39.69,4.8,3.5,UPI
+03-07-2024,04:25:31,"""CNR5231439""",Completed,"""CID7317542""",Go Mini,Noida Sector 18,MG Road,11.4,11.0,null,null,null,null,null,null,408,19.39,4.0,4.3,UPI
+04-07-2024,12:51:41,"""CNR4514781""",Completed,"""CID2356343""",Bike,Lajpat Nagar,Punjabi Bagh,2.7,11.7,null,null,null,null,null,null,78,4.80,3.5,3.7,Credit Card
+04-07-2024,23:46:03,"""CNR7385101""",Completed,"""CID2348199""",Auto,Anand Vihar ISBT,Rajouri Garden,16.7,17.6,null,null,null,null,null,null,244,13.10,4.2,4.1,Cash
+05-07-2024,02:23:41,"""CNR5410048""",Completed,"""CID7521681""",Go Mini,Lajpat Nagar,Connaught Place,15.4,35.0,null,null,null,null,null,null,915,45.68,4.6,3.8,UPI
+06-07-2024,20:30:25,"""CNR7938342""",Completed,"""CID1609648""",Bike,Faridabad Sector 15,Connaught Place,9.0,28.2,null,null,null,null,null,null,325,30.54,4.5,3.1,UPI
+07-07-2024,04:22:20,"""CNR9690801""",Completed,"""CID6928780""",eBike,Greater Kailash,Ghaziabad,12.6,28.0,null,null,null,null,null,null,291,27.84,4.9,4.6,UPI
+07-07-2024,04:30:21,"""CNR3258269""",Cancelled by Driver,"""CID8360358""",Auto,Udyog Vihar,Kashmere Gate,14.1,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+08-07-2024,11:21:08,"""CNR6306947""",Incomplete,"""CID4367808""",Bike,null,Chandni Chowk,2.8,22.5,null,null,null,null,1,Customer Demand,407,35.88,null,null,Credit Card
+09-07-2024,01:03:43,"""CNR5779280""",Completed,"""CID4134743""",Auto,IGI Airport,Punjabi Bagh,7.0,24.3,null,null,null,null,null,null,593,37.88,3.9,4.8,Cash
+10-07-2024,11:46:55,"""CNR3251781""",Incomplete,"""CID9331081""",Go Mini,Karol Bagh,IGI Airport,13.1,23.0,null,null,null,null,1,Other Issue,382,23.26,null,null,Credit Card
+10-07-2024,19:22:52,"""CNR2562533""",Cancelled by Driver,"""CID2096701""",Premier Sedan,Khan Market,Rajouri Garden,18.6,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+11-07-2024,14:40:29,"""CNR9476172""",Cancelled by Driver,"""CID4167282""",Auto,Nehru Place,MG Road,8.6,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+12-07-2024,00:58:14,"""CNR4695258""",Cancelled by Driver,"""CID6011324""",Go Mini,Okhla,MG Road,8.9,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+12-07-2024,01:10:13,"""CNR8777144""",Completed,"""CID2314644""",Premier Sedan,Anand Vihar ISBT,Punjabi Bagh,5.7,37.0,null,null,null,null,null,null,845,38.34,3.2,4.1,Cash
+13-07-2024,04:20:38,"""CNR5718377""",Incomplete,"""CID6222201""",Premier Sedan,Anand Vihar ISBT,Udyog Vihar,2.5,14.2,null,null,null,null,1,Other Issue,556,18.39,null,null,Uber Wallet
+14-07-2024,00:59:26,"""CNR5977485""",Completed,"""CID1392204""",Go Mini,Saket,Shahdara,2.9,35.0,null,null,null,null,null,null,361,18.05,4.2,4.5,Cash
+15-07-2024,06:30:32,"""CNR5150592""",Completed,"""CID3572003""",Go Mini,Anand Vihar ISBT,Jasola,4.4,10.1,null,null,null,null,null,null,611,38.87,3.2,3.3,Uber Wallet
+15-07-2024,23:15:15,"""CNR9698890""",Completed,"""CID9065262""",Auto,MG Road,IGI Airport,13.2,40.1,null,null,null,null,null,null,715,43.17,4.8,3.9,UPI
+16-07-2024,12:09:08,"""CNR7533341""",Completed,"""CID8910737""",Go Mini,Pitampura,Laxmi Nagar,12.4,14.8,null,null,null,null,null,null,96,3.06,4.2,3.3,UPI
+17-07-2024,13:08:51,"""CNR5729132""",Cancelled by Driver,"""CID1139146""",Go Mini,Golf Course Road,Karol Bagh,8.7,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+18-07-2024,14:31:41,"""CNR4083969""",Completed,"""CID4506303""",Auto,Indirapuram,Tilak Nagar,18.6,40.8,null,null,null,null,null,null,528,32.00,3.0,4.9,UPI
+18-07-2024,19:57:12,"""CNR9049218""",Completed,"""CID3407846""",eBike,New Delhi Railway Station,Mayur Vihar,14.7,43.9,null,null,null,null,null,null,214,19.48,4.2,3.6,Uber Wallet
+19-07-2024,12:15:11,"""CNR7120072""",Completed,"""CID7921385""",Auto,null,Kashmere Gate,9.9,35.1,null,null,null,null,null,null,153,7.56,4.1,3.2,UPI
+20-07-2024,21:09:18,"""CNR1521583""",Cancelled by Driver,"""CID9759358""",Premier Sedan,Connaught Place,Vaishali,17.3,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+21-07-2024,20:37:32,"""CNR7293250""",Cancelled by Driver,null,Auto,Lajpat Nagar,Kashmere Gate,6.4,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+21-07-2024,21:24:46,"""CNR2075033""",No Driver Found,"""CID7449528""",Bike,Mayur Vihar,Indirapuram,null,null,null,null,null,null,null,null,null,null,null,null,null
+22-07-2024,00:51:06,"""CNR3243892""",Completed,"""CID1124525""",Uber XL,Rohini,Kashmere Gate,4.1,24.4,null,null,null,null,null,null,1071,29.32,4.5,4.5,Debit Card
+23-07-2024,00:33:54,"""CNR8105413""",Cancelled by Driver,"""CID3195302""",Bike,Karol Bagh,Jasola,12.7,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+23-07-2024,03:46:39,"""CNR2700589""",Cancelled by Driver,null,Premier Sedan,Hauz Khas,Noida Film City,10.1,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+24-07-2024,12:04:11,"""CNR6432071""",Completed,"""CID1970453""",Go Mini,Tilak Nagar,Kashmere Gate,13.5,40.4,null,null,null,null,null,null,472,25.16,4.1,4.7,Uber Wallet
+25-07-2024,13:23:42,"""CNR4201171""",Cancelled by Driver,"""CID5782189""",Premier Sedan,null,Udyog Vihar,8.7,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+26-07-2024,17:11:18,"""CNR5265835""",Cancelled by Driver,"""CID7921385""",Bike,Kashmere Gate,Sohna Road,17.5,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+26-07-2024,21:16:16,"""CNR2277331""",Completed,"""CID8833048""",Auto,Vaishali,Hauz Khas,8.3,18.0,null,null,null,null,null,null,135,6.93,4.1,4.3,UPI
+27-07-2024,18:07:22,"""CNR1550304""",Completed,"""CID1802255""",Auto,null,Mayur Vihar,13.9,22.7,null,null,null,null,null,null,506,26.91,3.2,4.0,Cash
+28-07-2024,08:16:00,"""CNR5386809""",Completed,null,Auto,Barakhamba Road,Hauz Khas,10.1,19.9,null,null,null,null,null,null,433,28.95,4.7,4.6,UPI
+29-07-2024,00:42:22,"""CNR4177342""",Completed,"""CID5152080""",Premier Sedan,Rohini,Rajouri Garden,4.0,23.4,null,null,null,null,null,null,607,19.16,3.5,3.1,Uber Wallet
+29-07-2024,21:56:27,"""CNR9733266""",Completed,"""CID7694165""",Bike,Okhla,Shahdara,15.7,13.2,null,null,null,null,null,null,131,9.59,4.2,3.1,UPI
+30-07-2024,08:35:38,"""CNR8283607""",Completed,null,eBike,Okhla,Rajouri Garden,9.5,35.5,null,null,null,null,null,null,261,30.01,3.4,4.5,Cash
+31-07-2024,12:58:40,"""CNR3814530""",Completed,"""CID9379611""",Go Mini,Noida Film City,Rohini,14.8,20.1,null,null,null,null,null,null,125,5.00,4.9,4.8,UPI
+01-08-2024,03:40:49,"""CNR4230523""",Completed,"""CID1863760""",Go Mini,Tilak Nagar,Cyber Hub,14.3,42.3,null,null,null,null,null,null,377,19.47,4.8,4.8,UPI
+01-08-2024,14:35:15,"""CNR8923692""",Completed,"""CID5884796""",eBike,null,Noida Sector 18,4.1,24.5,null,null,null,null,null,null,203,22.52,4.4,3.5,UPI
+02-08-2024,02:28:30,"""CNR5465674""",Completed,"""CID9392575""",Premier Sedan,MG Road,New Delhi Railway Station,15.9,43.7,null,null,null,null,null,null,602,20.53,3.7,4.3,Cash
+03-08-2024,08:32:16,"""CNR8750549""",Completed,"""CID7266713""",Auto,IGI Airport,Hauz Khas,12.3,40.6,null,null,null,null,null,null,195,12.83,3.8,3.8,Debit Card
+03-08-2024,21:18:34,"""CNR2163159""",No Driver Found,"""CID4078384""",Auto,null,Vaishali,null,null,null,null,null,null,null,null,null,null,null,null,null
+04-08-2024,12:36:38,"""CNR3083675""",Completed,"""CID8724736""",Auto,Vaishali,IGI Airport,6.0,19.3,null,null,null,null,null,null,302,18.86,3.7,3.3,Cash
+05-08-2024,01:58:19,"""CNR2681656""",Completed,null,Go Sedan,Punjabi Bagh,Chandni Chowk,10.9,38.2,null,null,null,null,null,null,317,16.58,4.4,3.2,Credit Card
+06-08-2024,06:28:59,"""CNR3186545""",Completed,null,Premier Sedan,Noida Film City,Karol Bagh,15.3,31.0,null,null,null,null,null,null,737,29.08,4.9,3.8,Cash
+06-08-2024,08:26:45,"""CNR5495312""",No Driver Found,null,Go Sedan,Indirapuram,Dwarka Sector 21,null,null,null,null,null,null,null,null,null,null,null,null,null
+07-08-2024,06:45:41,"""CNR7464562""",Completed,"""CID8724279""",Go Mini,New Delhi Railway Station,MG Road,13.0,26.0,null,null,null,null,null,null,79,2.34,4.9,3.8,UPI
+08-08-2024,02:22:16,"""CNR2642203""",Cancelled by Driver,"""CID9714029""",Auto,Huda City Centre,Udyog Vihar,6.1,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+09-08-2024,19:54:20,"""CNR4735846""",Completed,"""CID9770974""",Go Mini,Kashmere Gate,IGI Airport,2.9,10.0,null,null,null,null,null,null,784,39.00,4.5,4.9,UPI
+09-08-2024,22:42:34,"""CNR4933072""",Completed,"""CID1935461""",Go Sedan,AIIMS,Dwarka Sector 21,19.2,25.8,null,null,null,null,null,null,432,21.86,4.2,3.6,UPI
+10-08-2024,17:39:21,"""CNR3757501""",Completed,"""CID7604518""",eBike,Barakhamba Road,Faridabad Sector 15,14.8,11.3,null,null,null,null,null,null,63,3.26,3.6,3.4,UPI
+11-08-2024,03:50:46,"""CNR5956976""",Cancelled by Driver,"""CID4652911""",Go Sedan,Dwarka Sector 21,Laxmi Nagar,18.7,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+11-08-2024,08:45:02,"""CNR3310220""",Completed,"""CID4382883""",Go Mini,Okhla,Lajpat Nagar,2.4,16.3,null,null,null,null,null,null,546,33.31,3.6,3.2,UPI
+12-08-2024,09:02:25,"""CNR7464637""",No Driver Found,"""CID8275850""",Go Sedan,Dwarka Sector 21,Karol Bagh,null,null,null,null,null,null,null,null,null,null,null,null,null
+13-08-2024,18:32:29,"""CNR2807714""",Completed,"""CID5043664""",Go Sedan,Jasola,Nehru Place,15.3,11.2,null,null,null,null,null,null,195,6.87,3.5,3.7,UPI
+14-08-2024,09:02:44,"""CNR3194685""",Completed,"""CID6640989""",Bike,Rajouri Garden,Noida Film City,15.3,13.8,null,null,null,null,null,null,444,38.85,4.9,3.8,UPI
+14-08-2024,10:27:18,"""CNR6679544""",Completed,"""CID8939526""",Premier Sedan,Noida Sector 18,Lajpat Nagar,9.6,18.8,null,null,null,null,null,null,1015,41.07,4.4,4.4,Cash
+15-08-2024,11:04:10,"""CNR7918370""",Completed,"""CID2721098""",Go Sedan,Sohna Road,Okhla,10.3,39.7,null,null,null,null,null,null,823,42.09,3.9,3.7,UPI
+16-08-2024,07:19:55,"""CNR6512820""",Completed,"""CID3711713""",Premier Sedan,Jasola,Noida Sector 18,5.9,39.7,null,null,null,null,null,null,764,30.02,4.5,4.4,UPI
+17-08-2024,14:39:21,"""CNR6596453""",Cancelled by Customer,"""CID2352755""",Go Mini,Cyber Hub,Kashmere Gate,18.9,null,1,Wrong Address,null,null,null,null,null,null,null,null,null
+17-08-2024,23:39:32,"""CNR4956701""",Completed,"""CID8321042""",Bike,Karol Bagh,Pitampura,6.0,16.1,null,null,null,null,null,null,232,17.25,3.0,4.4,Credit Card
+18-08-2024,09:29:52,"""CNR1337044""",Cancelled by Driver,"""CID2821644""",Go Mini,Pitampura,Rohini,16.8,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+19-08-2024,10:53:03,"""CNR5676927""",No Driver Found,"""CID2526390""",Premier Sedan,Anand Vihar ISBT,New Delhi Railway Station,null,null,null,null,null,null,null,null,null,null,null,null,null
+20-08-2024,19:14:59,"""CNR3338380""",Cancelled by Driver,"""CID2400575""",Go Sedan,Saket,AIIMS,3.2,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+20-08-2024,20:06:38,"""CNR7408647""",Completed,"""CID2378609""",Auto,Noida Film City,Chandni Chowk,3.6,10.9,null,null,null,null,null,null,520,35.80,3.6,4.1,UPI
+21-08-2024,01:51:43,"""CNR5485143""",Completed,"""CID8293173""",Premier Sedan,Punjabi Bagh,Khan Market,8.6,37.5,null,null,null,null,null,null,204,6.29,3.8,4.5,Cash
+22-08-2024,03:26:13,"""CNR9488414""",No Driver Found,"""CID9861715""",Auto,Mayur Vihar,IGI Airport,null,null,null,null,null,null,null,null,null,null,null,null,null
+22-08-2024,19:31:05,"""CNR3868804""",Completed,"""CID6563917""",Auto,null,Golf Course Road,14.8,26.9,null,null,null,null,null,null,295,19.34,4.1,4.9,UPI
+23-08-2024,12:01:37,"""CNR5318958""",Completed,"""CID8724279""",Auto,null,Pitampura,5.0,13.6,null,null,null,null,null,null,456,32.21,4.1,3.6,Uber Wallet
+24-08-2024,07:28:50,"""CNR4657544""",Incomplete,"""CID2732191""",Go Mini,MG Road,Rajouri Garden,19.7,23.4,null,null,null,null,1,Vehicle Breakdown,582,37.75,null,null,Debit Card
+25-08-2024,04:32:20,"""CNR3214309""",Completed,"""CID6937208""",Auto,Anand Vihar ISBT,Karol Bagh,6.4,16.0,null,null,null,null,null,null,553,40.57,4.6,4.3,UPI
+25-08-2024,08:45:27,"""CNR8189644""",Completed,"""CID9343323""",eBike,Kashmere Gate,Golf Course Road,5.9,17.1,null,null,null,null,null,null,282,35.58,3.4,3.6,UPI
+26-08-2024,02:53:44,"""CNR4206811""",Cancelled by Customer,"""CID5190384""",eBike,Dwarka Sector 21,Karol Bagh,6.3,null,1,Driver asked to cancel,null,null,null,null,null,null,null,null,null
+27-08-2024,19:00:51,"""CNR3106770""",Cancelled by Driver,null,eBike,Pitampura,Cyber Hub,7.8,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+28-08-2024,07:26:45,"""CNR3190107""",Cancelled by Customer,"""CID3535803""",Premier Sedan,Nehru Place,Noida Film City,4.8,null,1,Driver asked to cancel,null,null,null,null,null,null,null,null,null
+28-08-2024,22:40:37,"""CNR4897272""",Completed,"""CID7855101""",Go Mini,Golf Course Road,Noida Sector 18,14.4,32.9,null,null,null,null,null,null,605,39.45,4.0,4.7,UPI
+29-08-2024,09:16:09,"""CNR5241394""",Completed,"""CID2542090""",Premier Sedan,Greater Kailash,Hauz Khas,4.9,36.4,null,null,null,null,null,null,1029,37.24,3.8,4.8,Cash
+30-08-2024,02:59:33,"""CNR1418290""",Cancelled by Driver,"""CID9254066""",Go Mini,Udyog Vihar,Shahdara,13.2,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+31-08-2024,01:47:38,"""CNR2838029""",Completed,"""CID5282281""",Auto,Cyber Hub,Hauz Khas,14.5,31.4,null,null,null,null,null,null,511,27.85,4.0,3.9,Uber Wallet
+31-08-2024,05:36:17,"""CNR8108804""",No Driver Found,"""CID6222201""",Auto,null,Noida Film City,null,null,null,null,null,null,null,null,null,null,null,null,null
+01-09-2024,08:59:27,"""CNR9911398""",Cancelled by Customer,"""CID2400575""",Bike,Faridabad Sector 15,Hauz Khas,8.6,null,1,Wrong Address,null,null,null,null,null,null,null,null,null
+02-09-2024,09:40:55,"""CNR1564777""",Cancelled by Driver,"""CID2851987""",Go Mini,Pitampura,Udyog Vihar,8.7,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+02-09-2024,09:55:47,"""CNR8053068""",Completed,"""CID4502393""",Premier Sedan,Dwarka Sector 21,Kashmere Gate,19.5,30.3,null,null,null,null,null,null,404,17.82,3.3,4.7,Cash
+03-09-2024,02:01:59,"""CNR8973933""",Completed,"""CID5529913""",Auto,Jasola,Vasant Kunj,6.6,13.5,null,null,null,null,null,null,386,20.30,3.6,4.5,Uber Wallet
+04-09-2024,01:06:52,"""CNR3613917""",Cancelled by Customer,"""CID2336071""",Auto,Mayur Vihar,Pitampura,12.8,null,1,Change of plans,null,null,null,null,null,null,null,null,null
+05-09-2024,00:57:33,"""CNR5646193""",Completed,"""CID1624227""",eBike,Hauz Khas,Golf Course Road,19.2,32.3,null,null,null,null,null,null,262,28.95,4.8,3.7,Cash
+05-09-2024,22:35:17,"""CNR7031589""",Completed,"""CID9379611""",Go Sedan,Rohini,Greater Kailash,15.4,36.7,null,null,null,null,null,null,374,18.25,4.5,3.3,Credit Card
+06-09-2024,10:33:59,"""CNR8733879""",Incomplete,"""CID4164233""",Go Sedan,Ghaziabad,Vaishali,12.6,33.0,null,null,null,null,1,Customer Demand,551,23.90,null,null,UPI
+07-09-2024,09:31:19,"""CNR6830282""",Completed,"""CID7379268""",Go Mini,Hauz Khas,Rohini,15.9,37.7,null,null,null,null,null,null,185,7.60,4.7,4.8,Cash
+08-09-2024,02:24:03,"""CNR9090790""",Completed,"""CID3467038""",Auto,Hauz Khas,Noida Film City,19.4,14.6,null,null,null,null,null,null,283,16.94,4.8,3.7,UPI
+08-09-2024,18:37:45,"""CNR5884774""",Cancelled by Customer,"""CID9770974""",Auto,Pitampura,Faridabad Sector 15,16.5,null,1,Change of plans,null,null,null,null,null,null,null,null,null
+09-09-2024,11:16:39,"""CNR8514622""",Cancelled by Customer,"""CID3057973""",Bike,Huda City Centre,Udyog Vihar,18.3,null,1,Wrong Address,null,null,null,null,null,null,null,null,null
+10-09-2024,22:47:39,"""CNR1527381""",No Driver Found,"""CID4408176""",Go Sedan,Laxmi Nagar,Vaishali,null,null,null,null,null,null,null,null,null,null,null,null,null
+11-09-2024,12:57:30,"""CNR4141298""",Cancelled by Driver,"""CID1856668""",Bike,Tilak Nagar,Barakhamba Road,11.7,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+11-09-2024,19:33:54,"""CNR5758992""",Completed,"""CID6653170""",Auto,Indirapuram,Faridabad Sector 15,18.2,39.4,null,null,null,null,null,null,235,13.40,4.0,3.8,Uber Wallet
+12-09-2024,11:33:56,"""CNR7423376""",No Driver Found,null,Premier Sedan,Noida Sector 18,Janakpuri,null,null,null,null,null,null,null,null,null,null,null,null,null
+13-09-2024,03:27:47,"""CNR9314523""",Completed,"""CID1538051""",Bike,Faridabad Sector 15,Punjabi Bagh,13.6,18.8,null,null,null,null,null,null,452,45.57,4.7,3.0,UPI
+13-09-2024,03:38:13,"""CNR7060257""",Completed,"""CID7284555""",Auto,Shahdara,Pitampura,2.7,34.7,null,null,null,null,null,null,147,7.55,3.0,4.9,UPI
+14-09-2024,21:42:11,"""CNR9441689""",Cancelled by Customer,"""CID9382089""",Go Sedan,Cyber Hub,Rohini,7.3,null,1,Change of plans,null,null,null,null,null,null,null,null,null
+15-09-2024,15:26:39,"""CNR9157865""",Cancelled by Customer,"""CID3747729""",Auto,Rohini,Janakpuri,9.2,null,1,Change of plans,null,null,null,null,null,null,null,null,null
+16-09-2024,09:29:28,"""CNR3652838""",Completed,"""CID2981120""",Go Sedan,IGI Airport,Punjabi Bagh,17.7,27.4,null,null,null,null,null,null,697,37.96,4.5,3.4,UPI
+16-09-2024,15:31:31,"""CNR7102627""",Cancelled by Driver,"""CID9548374""",Auto,MG Road,Vaishali,6.0,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+17-09-2024,19:21:49,"""CNR2083395""",Completed,"""CID8293990""",Auto,Pitampura,Mayur Vihar,14.4,17.5,null,null,null,null,null,null,67,1.63,3.2,4.3,Debit Card
+18-09-2024,21:48:11,"""CNR9515511""",No Driver Found,"""CID8714262""",Go Mini,Mayur Vihar,Laxmi Nagar,null,null,null,null,null,null,null,null,null,null,null,null,null
+19-09-2024,04:17:45,"""CNR5497879""",No Driver Found,"""CID5138917""",Auto,Laxmi Nagar,Okhla,null,null,null,null,null,null,null,null,null,null,null,null,null
+19-09-2024,19:04:47,"""CNR4304297""",No Driver Found,"""CID4045776""",eBike,Chandni Chowk,Noida Sector 18,null,null,null,null,null,null,null,null,null,null,null,null,null
+20-09-2024,18:28:05,"""CNR4056232""",Cancelled by Driver,"""CID3351641""",eBike,Barakhamba Road,Laxmi Nagar,8.2,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+21-09-2024,10:43:12,"""CNR8828125""",Completed,"""CID2491097""",Auto,Laxmi Nagar,MG Road,9.0,39.6,null,null,null,null,null,null,105,4.52,4.1,3.5,Cash
+21-09-2024,14:06:09,"""CNR8375651""",Completed,"""CID1554624""",Auto,Laxmi Nagar,Sohna Road,2.8,26.7,null,null,null,null,null,null,335,21.40,3.9,4.3,Credit Card
+22-09-2024,21:53:02,"""CNR6475741""",Cancelled by Customer,"""CID6410349""",Go Sedan,Anand Vihar ISBT,Vasant Kunj,7.8,null,1,AC is not working,null,null,null,null,null,null,null,null,null
+23-09-2024,23:02:37,"""CNR1112594""",Completed,"""CID9861715""",Auto,Indirapuram,Tilak Nagar,5.9,24.1,null,null,null,null,null,null,559,36.23,3.8,3.3,UPI
+24-09-2024,00:46:54,"""CNR3367323""",Completed,"""CID7449528""",Go Sedan,Rohini,Janakpuri,14.9,39.2,null,null,null,null,null,null,1021,44.62,3.5,4.3,UPI
+24-09-2024,06:50:04,"""CNR2931452""",Completed,"""CID5623781""",Go Mini,Cyber Hub,Indirapuram,15.9,37.0,null,null,null,null,null,null,699,45.51,4.0,3.7,UPI
+25-09-2024,02:43:04,"""CNR8098183""",Incomplete,"""CID5048513""",Go Sedan,Chandni Chowk,Greater Kailash,12.5,10.5,null,null,null,null,1,Customer Demand,962,47.20,null,null,UPI
+26-09-2024,12:23:22,"""CNR1827581""",Completed,"""CID5593939""",Auto,Khan Market,Nehru Place,3.8,27.6,null,null,null,null,null,null,442,25.89,3.9,5.0,Credit Card
+27-09-2024,05:19:31,"""CNR5726455""",Completed,"""CID5594636""",Bike,Karol Bagh,Indirapuram,13.6,14.1,null,null,null,null,null,null,436,36.65,4.3,4.9,UPI
+27-09-2024,17:50:03,"""CNR2368512""",Cancelled by Customer,"""CID7668805""",Auto,Mayur Vihar,Vaishali,18.7,null,1,Wrong Address,null,null,null,null,null,null,null,null,null
+28-09-2024,14:28:07,"""CNR2377675""",Completed,"""CID6918427""",Bike,Nehru Place,Vasant Kunj,17.7,44.6,null,null,null,null,null,null,190,17.48,3.2,4.1,UPI
+29-09-2024,20:51:34,"""CNR9048673""",Completed,"""CID7317448""",Uber XL,Cyber Hub,Lajpat Nagar,3.3,18.4,null,null,null,null,null,null,949,28.61,4.3,3.3,Cash
+30-09-2024,17:27:43,"""CNR4528409""",Completed,"""CID7468546""",Go Sedan,New Delhi Railway Station,Huda City Centre,5.1,41.0,null,null,null,null,null,null,1080,45.79,3.7,4.9,Cash
+30-09-2024,23:22:14,"""CNR8760339""",Cancelled by Driver,"""CID9673865""",Auto,Laxmi Nagar,Punjabi Bagh,4.9,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+01-10-2024,19:54:01,"""CNR9836013""",Completed,"""CID2440266""",eBike,New Delhi Railway Station,Chandni Chowk,12.3,19.0,null,null,null,null,null,null,400,41.16,3.6,4.3,Uber Wallet
+02-10-2024,11:38:00,"""CNR9427314""",Completed,"""CID1609648""",Auto,Faridabad Sector 15,Hauz Khas,12.8,39.2,null,null,null,null,null,null,423,25.19,3.8,4.1,Credit Card
+02-10-2024,15:16:50,"""CNR4901116""",Completed,"""CID6729463""",Go Mini,Connaught Place,Pitampura,14.2,36.7,null,null,null,null,null,null,102,3.69,3.8,3.1,Uber Wallet
+03-10-2024,04:01:19,"""CNR6257503""",Completed,"""CID6563917""",eBike,Karol Bagh,Noida Sector 18,13.4,14.7,null,null,null,null,null,null,155,16.02,3.4,4.5,Cash
+04-10-2024,22:47:35,"""CNR9603885""",Cancelled by Driver,"""CID3373266""",Go Sedan,Mayur Vihar,Vaishali,17.1,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+05-10-2024,02:58:20,"""CNR9191280""",Cancelled by Customer,"""CID4134743""",Auto,Dwarka Sector 21,Huda City Centre,16.1,null,1,Driver is not moving towards pickup location,null,null,null,null,null,null,null,null,null
+05-10-2024,05:34:39,"""CNR6078068""",No Driver Found,"""CID2232915""",Go Mini,AIIMS,Vasant Kunj,null,null,null,null,null,null,null,null,null,null,null,null,null
+06-10-2024,04:59:44,"""CNR5921523""",Completed,"""CID8566748""",Auto,AIIMS,Saket,16.1,19.9,null,null,null,null,null,null,786,47.22,3.6,4.6,UPI
+07-10-2024,06:46:02,"""CNR1937359""",No Driver Found,"""CID9171275""",Go Mini,Punjabi Bagh,IGI Airport,null,null,null,null,null,null,null,null,null,null,null,null,null
+08-10-2024,03:07:11,"""CNR8952806""",Cancelled by Driver,"""CID8345576""",Auto,Jasola,Indirapuram,16.8,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+08-10-2024,19:27:51,"""CNR4540694""",Completed,"""CID8831344""",Auto,Noida Film City,Faridabad Sector 15,11.9,44.2,null,null,null,null,null,null,690,46.43,4.2,3.4,UPI
+09-10-2024,13:33:57,"""CNR5128706""",No Driver Found,"""CID2348199""",Go Sedan,Mayur Vihar,Connaught Place,null,null,null,null,null,null,null,null,null,null,null,null,null
+10-10-2024,05:48:49,"""CNR6182172""",Completed,"""CID9050559""",Auto,Punjabi Bagh,Tilak Nagar,18.4,29.2,null,null,null,null,null,null,448,33.08,3.5,3.4,UPI
+11-10-2024,01:23:59,"""CNR6264486""",Completed,"""CID1840123""",Premier Sedan,Vaishali,Laxmi Nagar,16.4,32.6,null,null,null,null,null,null,985,33.47,3.9,3.2,UPI
+11-10-2024,03:07:03,"""CNR5205047""",Completed,"""CID2001394""",Go Sedan,Huda City Centre,Udyog Vihar,6.7,45.0,null,null,null,null,null,null,653,37.00,3.1,4.1,Cash
+12-10-2024,00:44:05,"""CNR6521512""",Completed,"""CID4215051""",eBike,Udyog Vihar,Anand Vihar ISBT,8.5,20.4,null,null,null,null,null,null,295,29.31,4.1,3.9,Cash
+13-10-2024,09:43:05,"""CNR1656160""",Completed,"""CID2400575""",Auto,Okhla,Vaishali,14.7,18.7,null,null,null,null,null,null,498,35.54,4.0,3.8,UPI
+13-10-2024,22:54:22,"""CNR3349708""",Incomplete,"""CID4502393""",Auto,Punjabi Bagh,Dwarka Sector 21,11.1,44.5,null,null,null,null,1,Vehicle Breakdown,345,22.74,null,null,UPI
+14-10-2024,03:06:19,"""CNR9987519""",Completed,"""CID6355070""",Auto,Rohini,Jasola,11.4,33.7,null,null,null,null,null,null,543,37.45,4.7,3.6,Debit Card
+15-10-2024,02:38:49,"""CNR5379634""",Completed,"""CID7463900""",Premier Sedan,Chandni Chowk,Okhla,19.1,36.0,null,null,null,null,null,null,448,15.88,3.7,4.7,Debit Card
+16-10-2024,18:12:47,"""CNR6792643""",Completed,"""CID6918427""",Auto,Anand Vihar ISBT,Vaishali,12.5,33.9,null,null,null,null,null,null,690,41.60,4.0,3.1,Credit Card
+16-10-2024,19:40:31,"""CNR6803257""",No Driver Found,"""CID6798495""",Bike,Huda City Centre,Nehru Place,null,null,null,null,null,null,null,null,null,null,null,null,null
+17-10-2024,16:01:07,"""CNR3531953""",Cancelled by Driver,"""CID4506303""",Go Mini,Huda City Centre,Punjabi Bagh,2.8,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+18-10-2024,14:02:26,"""CNR1892663""",Completed,"""CID6798495""",Go Mini,Hauz Khas,Janakpuri,11.1,37.4,null,null,null,null,null,null,557,30.29,4.2,3.7,Uber Wallet
+19-10-2024,03:12:53,"""CNR1255471""",Completed,"""CID3860153""",Bike,Hauz Khas,Jasola,12.2,29.1,null,null,null,null,null,null,292,26.05,4.8,3.1,UPI
+19-10-2024,13:56:15,"""CNR6865054""",Completed,"""CID7147175""",Auto,Kashmere Gate,Khan Market,7.7,21.5,null,null,null,null,null,null,648,41.76,3.8,4.7,UPI
+20-10-2024,08:59:06,"""CNR6302193""",Completed,"""CID6798495""",Bike,Ghaziabad,Greater Kailash,4.7,18.7,null,null,null,null,null,null,223,21.83,4.1,3.0,Uber Wallet
+21-10-2024,02:26:44,"""CNR6287279""",Completed,"""CID6375193""",Go Mini,New Delhi Railway Station,Vasant Kunj,9.9,32.3,null,null,null,null,null,null,789,37.74,3.5,4.2,Cash
+21-10-2024,23:19:57,"""CNR4284641""",Cancelled by Driver,"""CID1195281""",Bike,Mayur Vihar,Laxmi Nagar,15.1,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+22-10-2024,00:30:24,"""CNR4142719""",Incomplete,"""CID9631497""",Bike,Sohna Road,Golf Course Road,17.3,15.4,null,null,null,null,1,Other Issue,199,17.44,null,null,UPI
+23-10-2024,06:12:05,"""CNR5755642""",Completed,"""CID5622180""",Go Mini,Mayur Vihar,Khan Market,13.1,18.7,null,null,null,null,null,null,459,23.46,3.3,3.4,UPI
+24-10-2024,09:26:51,"""CNR9904982""",Completed,"""CID5043664""",Bike,Noida Sector 18,Connaught Place,15.4,43.5,null,null,null,null,null,null,244,26.57,3.2,3.6,Cash
+24-10-2024,10:07:04,"""CNR8617728""",Incomplete,"""CID4867391""",Go Sedan,AIIMS,IGI Airport,10.3,16.1,null,null,null,null,1,Other Issue,891,43.25,null,null,Cash
+25-10-2024,14:38:06,"""CNR1840410""",Completed,"""CID1629613""",Premier Sedan,Ghaziabad,Punjabi Bagh,2.6,35.4,null,null,null,null,null,null,1088,37.80,4.7,4.2,UPI
+26-10-2024,06:33:29,"""CNR3677499""",Completed,"""CID4091027""",eBike,Udyog Vihar,Huda City Centre,18.7,24.6,null,null,null,null,null,null,309,30.24,3.9,3.2,Cash
+27-10-2024,10:42:58,"""CNR2672357""",Cancelled by Driver,"""CID8345586""",Go Mini,Mayur Vihar,Karol Bagh,18.9,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+27-10-2024,19:41:57,"""CNR9109665""",Completed,"""CID8994743""",Go Mini,Barakhamba Road,Hauz Khas,15.5,25.3,null,null,null,null,null,null,183,10.16,4.1,3.7,Cash
+28-10-2024,20:04:13,"""CNR5419215""",No Driver Found,"""CID2721098""",Go Mini,Indirapuram,Golf Course Road,null,null,null,null,null,null,null,null,null,null,null,null,null
+29-10-2024,15:39:31,"""CNR7598685""",Cancelled by Driver,"""CID2204807""",Go Sedan,Kashmere Gate,Hauz Khas,3.4,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+30-10-2024,00:56:47,"""CNR7919224""",Completed,"""CID5679161""",Go Sedan,Anand Vihar ISBT,Janakpuri,13.0,41.6,null,null,null,null,null,null,638,26.11,4.1,4.8,UPI
+30-10-2024,10:30:21,"""CNR1901869""",Cancelled by Driver,"""CID8275850""",Go Mini,Saket,Punjabi Bagh,15.9,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+31-10-2024,18:18:38,"""CNR4356044""",Cancelled by Driver,"""CID4382883""",Auto,Connaught Place,Dwarka Sector 21,18.0,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+01-11-2024,07:43:39,"""CNR3253696""",Completed,"""CID1412884""",Go Mini,null,Faridabad Sector 15,10.6,41.4,null,null,null,null,null,null,87,2.57,4.2,4.8,UPI
+01-11-2024,09:41:13,"""CNR3233806""",No Driver Found,"""CID1554624""",Bike,Noida Sector 18,Connaught Place,null,null,null,null,null,null,null,null,null,null,null,null,null
+02-11-2024,13:05:29,"""CNR7095123""",Completed,"""CID6997373""",Go Sedan,Ghaziabad,Golf Course Road,18.9,44.8,null,null,null,null,null,null,250,9.11,3.7,3.1,Credit Card
+03-11-2024,10:19:03,"""CNR1223092""",Completed,"""CID1497489""",Go Sedan,null,Rajouri Garden,2.9,13.3,null,null,null,null,null,null,86,2.00,3.1,4.9,Credit Card
+04-11-2024,06:35:14,"""CNR8588802""",Completed,"""CID4321537""",Auto,Greater Kailash,Noida Sector 18,10.0,41.7,null,null,null,null,null,null,560,41.77,4.6,3.4,Debit Card
+04-11-2024,12:13:56,"""CNR7045400""",Completed,"""CID6438717""",Go Mini,Ghaziabad,Pitampura,3.1,23.5,null,null,null,null,null,null,355,15.93,3.4,4.1,Cash
+05-11-2024,03:21:35,"""CNR7961186""",Completed,"""CID7690657""",Go Mini,null,Sohna Road,3.3,19.8,null,null,null,null,null,null,317,14.16,4.8,3.5,UPI
+06-11-2024,19:54:18,"""CNR5157125""",Completed,"""CID8275850""",Go Sedan,New Delhi Railway Station,Rajouri Garden,18.9,22.7,null,null,null,null,null,null,854,40.42,4.6,4.1,Uber Wallet
+07-11-2024,19:04:01,"""CNR6747066""",Incomplete,"""CID8803294""",Premier Sedan,Huda City Centre,Golf Course Road,18.6,32.3,null,null,null,null,1,Customer Demand,169,6.27,null,null,UPI
+07-11-2024,20:29:52,"""CNR3094761""",Cancelled by Driver,"""CID5679161""",Go Mini,Noida Sector 18,Karol Bagh,19.7,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+08-11-2024,21:56:54,"""CNR8553209""",Cancelled by Driver,"""CID8006244""",Premier Sedan,Vaishali,Okhla,5.3,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+09-11-2024,10:10:49,"""CNR6495669""",Completed,"""CID2620398""",Go Mini,New Delhi Railway Station,Lajpat Nagar,13.2,33.0,null,null,null,null,null,null,256,12.62,4.3,3.9,Cash
+10-11-2024,12:32:49,"""CNR9741665""",Cancelled by Driver,"""CID2259591""",Go Sedan,Pitampura,Huda City Centre,6.4,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+10-11-2024,17:40:20,"""CNR1116576""",Cancelled by Customer,"""CID9792899""",Premier Sedan,Laxmi Nagar,Dwarka Sector 21,2.1,null,1,AC is not working,null,null,null,null,null,null,null,null,null
+11-11-2024,15:16:09,"""CNR7942039""",Completed,"""CID7889028""",Premier Sedan,IGI Airport,Indirapuram,6.1,11.3,null,null,null,null,null,null,1238,40.32,3.7,4.1,UPI
+12-11-2024,01:17:19,"""CNR4396987""",Completed,"""CID7020935""",Auto,Karol Bagh,Sohna Road,19.6,11.5,null,null,null,null,null,null,449,30.97,3.8,4.4,UPI
+12-11-2024,23:02:05,"""CNR8415199""",Cancelled by Customer,"""CID6798495""",Bike,Kashmere Gate,Noida Film City,19.2,null,1,Driver is not moving towards pickup location,null,null,null,null,null,null,null,null,null
+13-11-2024,06:27:34,"""CNR3136799""",Completed,"""CID2352755""",eBike,Mayur Vihar,Sohna Road,15.9,42.4,null,null,null,null,null,null,243,22.58,4.1,3.6,UPI
+14-11-2024,01:28:10,"""CNR2947434""",Completed,"""CID2342843""",Go Mini,Cyber Hub,Laxmi Nagar,3.4,31.1,null,null,null,null,null,null,637,30.33,3.2,3.6,UPI
+15-11-2024,06:35:25,"""CNR7860588""",Completed,"""CID3269269""",Go Mini,Jasola,Khan Market,4.3,18.0,null,null,null,null,null,null,73,2.12,3.4,4.2,UPI
+15-11-2024,21:35:28,"""CNR9531783""",Cancelled by Customer,"""CID1840123""",Bike,Punjabi Bagh,Lajpat Nagar,3.9,null,1,Driver asked to cancel,null,null,null,null,null,null,null,null,null
+16-11-2024,15:18:33,"""CNR9308388""",Completed,"""CID4647152""",Bike,Golf Course Road,Mayur Vihar,3.3,34.8,null,null,null,null,null,null,376,42.33,4.9,4.5,Cash
+17-11-2024,14:12:40,"""CNR7649028""",Completed,"""CID2656400""",eBike,null,Cyber Hub,2.8,12.8,null,null,null,null,null,null,291,27.61,4.0,3.9,Uber Wallet
+18-11-2024,06:38:03,"""CNR9331275""",Incomplete,"""CID5152080""",Premier Sedan,Indirapuram,Barakhamba Road,3.0,22.9,null,null,null,null,1,Customer Demand,1060,44.73,null,null,UPI
+18-11-2024,09:09:23,"""CNR8597629""",Completed,"""CID7873402""",Go Sedan,IGI Airport,Shahdara,3.0,27.0,null,null,null,null,null,null,211,9.72,4.1,4.0,Cash
+19-11-2024,13:40:43,"""CNR4707993""",Completed,"""CID6563917""",Auto,Noida Sector 18,Pitampura,2.6,35.8,null,null,null,null,null,null,298,16.08,4.6,3.7,UPI
+20-11-2024,21:21:49,"""CNR1741848""",Cancelled by Driver,"""CID1802255""",Bike,Cyber Hub,Golf Course Road,6.9,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+21-11-2024,11:15:00,"""CNR8530560""",Completed,"""CID9272078""",Auto,Rohini,Okhla,13.5,33.5,null,null,null,null,null,null,539,28.62,3.3,3.3,UPI
+21-11-2024,17:47:10,"""CNR9816713""",Incomplete,"""CID7947058""",Go Sedan,Rohini,Connaught Place,6.4,27.7,null,null,null,null,1,Other Issue,195,7.02,null,null,Credit Card
+22-11-2024,14:44:44,"""CNR2272200""",Completed,"""CID1609648""",Auto,Vaishali,Mayur Vihar,6.9,41.3,null,null,null,null,null,null,709,41.12,4.9,3.2,UPI
+23-11-2024,09:30:00,"""CNR5496268""",Cancelled by Driver,"""CID2346550""",Bike,Saket,Chandni Chowk,5.6,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+23-11-2024,19:11:44,"""CNR2962695""",Completed,"""CID9861715""",Auto,Noida Film City,Udyog Vihar,2.6,25.2,null,null,null,null,null,null,581,37.00,4.9,3.6,UPI
+24-11-2024,15:31:32,"""CNR7202457""",Cancelled by Driver,"""CID4121293""",Premier Sedan,Faridabad Sector 15,Vasant Kunj,5.3,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+25-11-2024,01:12:09,"""CNR9984210""",Completed,"""CID3711713""",Auto,Karol Bagh,MG Road,13.7,30.0,null,null,null,null,null,null,209,14.00,4.5,4.9,Credit Card
+26-11-2024,06:47:49,"""CNR7060587""",Completed,"""CID9331081""",Go Mini,Connaught Place,MG Road,15.4,35.4,null,null,null,null,null,null,810,46.80,4.8,3.8,UPI
+26-11-2024,18:02:54,"""CNR2178669""",Completed,"""CID1840123""",Bike,Janakpuri,Rohini,16.4,27.5,null,null,null,null,null,null,154,12.98,4.7,3.9,UPI
+27-11-2024,16:10:32,"""CNR6490239""",Completed,"""CID2298463""",Auto,Faridabad Sector 15,Khan Market,10.9,20.3,null,null,null,null,null,null,567,35.89,4.0,3.5,Debit Card
+28-11-2024,09:06:24,"""CNR9122133""",Cancelled by Driver,"""CID7383277""",Premier Sedan,Rajouri Garden,Kashmere Gate,3.2,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+29-11-2024,02:02:55,"""CNR8975597""",Completed,"""CID9673865""",Auto,Lajpat Nagar,Tilak Nagar,2.3,16.7,null,null,null,null,null,null,339,23.77,4.0,3.8,Credit Card
+29-11-2024,03:07:57,"""CNR5599941""",Completed,"""CID8741623""",eBike,Tilak Nagar,Indirapuram,7.7,33.9,null,null,null,null,null,null,375,39.32,4.2,3.7,Debit Card
+30-11-2024,11:42:28,"""CNR7831000""",Completed,"""CID3910761""",Go Sedan,Anand Vihar ISBT,Laxmi Nagar,3.7,39.4,null,null,null,null,null,null,628,31.16,4.4,4.9,Cash
+01-12-2024,05:14:34,"""CNR7294930""",Completed,"""CID5950127""",Go Sedan,Greater Kailash,Dwarka Sector 21,5.0,34.7,null,null,null,null,null,null,733,38.85,3.0,4.5,Uber Wallet
+01-12-2024,12:31:29,"""CNR9398978""",Cancelled by Customer,"""CID7029616""",Go Mini,Khan Market,Rajouri Garden,4.5,null,1,Wrong Address,null,null,null,null,null,null,null,null,null
+02-12-2024,05:34:09,"""CNR5317258""",Completed,"""CID7029616""",Go Sedan,MG Road,Punjabi Bagh,16.6,16.9,null,null,null,null,null,null,333,14.39,4.9,4.9,UPI
+03-12-2024,10:42:54,"""CNR2876505""",Completed,"""CID7057332""",Bike,Vasant Kunj,IGI Airport,19.2,38.4,null,null,null,null,null,null,93,6.72,4.0,3.1,Cash
+04-12-2024,19:11:28,"""CNR5191308""",Completed,"""CID3499380""",Auto,Mayur Vihar,Vasant Kunj,8.3,42.6,null,null,null,null,null,null,142,5.89,4.5,3.2,Cash
+04-12-2024,20:13:14,"""CNR1310717""",Cancelled by Driver,"""CID9622388""",Auto,Karol Bagh,Jasola,6.6,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+05-12-2024,05:41:50,"""CNR9800200""",Cancelled by Customer,"""CID4358033""",Bike,Punjabi Bagh,Kashmere Gate,13.3,null,1,Driver asked to cancel,null,null,null,null,null,null,null,null,null
+06-12-2024,15:48:31,"""CNR8195480""",Cancelled by Customer,null,Bike,Hauz Khas,Shahdara,15.8,null,1,AC is not working,null,null,null,null,null,null,null,null,null
+07-12-2024,08:49:48,"""CNR3543588""",Cancelled by Customer,"""CID5017833""",Auto,Lajpat Nagar,Noida Sector 18,19.6,null,1,AC is not working,null,null,null,null,null,null,null,null,null
+07-12-2024,13:16:11,"""CNR3747469""",Completed,"""CID2440266""",Auto,Ghaziabad,Jasola,5.7,33.5,null,null,null,null,null,null,122,6.31,3.0,3.3,UPI
+08-12-2024,19:14:03,"""CNR4168190""",Cancelled by Driver,"""CID9431794""",Go Sedan,Noida Sector 18,Lajpat Nagar,11.2,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+09-12-2024,03:03:26,"""CNR1246187""",Completed,"""CID2851987""",Uber XL,Noida Sector 18,Anand Vihar ISBT,17.9,40.1,null,null,null,null,null,null,928,33.11,4.8,3.8,UPI
+10-12-2024,02:42:33,"""CNR5527460""",Completed,"""CID2542090""",Go Sedan,Barakhamba Road,Khan Market,8.3,28.0,null,null,null,null,null,null,998,42.12,3.7,4.0,Credit Card
+10-12-2024,07:28:01,"""CNR1261454""",Cancelled by Customer,"""CID8724279""",Go Mini,Punjabi Bagh,Ghaziabad,9.9,null,1,Driver is not moving towards pickup location,null,null,null,null,null,null,null,null,null
+11-12-2024,17:54:45,"""CNR2014184""",Completed,"""CID3818638""",Bike,Vasant Kunj,Udyog Vihar,6.0,22.7,null,null,null,null,null,null,247,21.59,4.8,4.6,UPI
+12-12-2024,17:15:17,"""CNR6607148""",Completed,"""CID1918068""",Go Mini,MG Road,New Delhi Railway Station,10.0,19.6,null,null,null,null,null,null,361,16.68,4.6,3.8,Credit Card
+12-12-2024,22:44:15,"""CNR2796431""",Cancelled by Driver,"""CID7521681""",Bike,Connaught Place,Pitampura,15.5,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+13-12-2024,19:17:07,"""CNR3728924""",Completed,"""CID9137055""",Premier Sedan,Khan Market,Dwarka Sector 21,11.1,19.3,null,null,null,null,null,null,856,31.20,3.5,4.2,Credit Card
+14-12-2024,23:42:10,"""CNR4848117""",Cancelled by Driver,"""CID1609648""",Auto,Laxmi Nagar,Pitampura,6.1,null,null,null,1,Customer related issue,null,null,null,null,null,null,null
+15-12-2024,15:29:15,"""CNR9657452""",Cancelled by Driver,"""CID4729455""",Go Mini,Janakpuri,Noida Film City,13.2,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+15-12-2024,19:39:07,"""CNR4996465""",Cancelled by Driver,"""CID9622388""",Bike,Tilak Nagar,Lajpat Nagar,17.0,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+16-12-2024,01:13:45,"""CNR5589648""",Cancelled by Customer,"""CID2796721""",Auto,Khan Market,IGI Airport,6.0,null,1,Change of plans,null,null,null,null,null,null,null,null,null
+17-12-2024,07:21:28,"""CNR2273850""",Completed,"""CID1863760""",Bike,Mayur Vihar,Punjabi Bagh,14.9,21.1,null,null,null,null,null,null,134,9.10,3.6,4.9,Uber Wallet
+18-12-2024,03:18:57,"""CNR1695929""",Incomplete,"""CID2336071""",Bike,MG Road,Mayur Vihar,15.7,39.1,null,null,null,null,1,Other Issue,79,4.78,null,null,Cash
+18-12-2024,06:44:09,"""CNR3603507""",Completed,"""CID2526390""",Go Sedan,Noida Film City,Shahdara,6.2,28.4,null,null,null,null,null,null,699,35.62,3.0,4.5,UPI
+19-12-2024,17:24:16,"""CNR5200333""",Completed,"""CID7401869""",Bike,Punjabi Bagh,AIIMS,7.1,14.5,null,null,null,null,null,null,255,22.69,4.5,4.8,UPI
+20-12-2024,18:09:22,"""CNR7024566""",Completed,"""CID4683780""",Go Sedan,Laxmi Nagar,AIIMS,15.9,38.6,null,null,null,null,null,null,319,17.03,4.6,4.0,Cash
+21-12-2024,09:08:05,"""CNR9782235""",Completed,null,eBike,Mayur Vihar,Dwarka Sector 21,18.5,23.8,null,null,null,null,null,null,305,28.25,3.7,4.3,Uber Wallet
+21-12-2024,14:24:00,"""CNR2392948""",Cancelled by Driver,"""CID8360358""",Bike,Golf Course Road,Mayur Vihar,7.8,null,null,null,1,Personal & Car related issues,null,null,null,null,null,null,null
+22-12-2024,08:02:54,"""CNR7210000""",Cancelled by Driver,"""CID3902667""",Auto,Kashmere Gate,Faridabad Sector 15,2.2,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+23-12-2024,01:00:14,"""CNR3852834""",Completed,"""CID6226679""",Auto,Faridabad Sector 15,Lajpat Nagar,17.8,33.3,null,null,null,null,null,null,146,7.33,3.1,3.9,Uber Wallet
+23-12-2024,15:59:43,"""CNR2813811""",Completed,"""CID8718908""",Bike,Laxmi Nagar,Janakpuri,6.8,32.8,null,null,null,null,null,null,103,5.95,3.8,3.4,UPI
+24-12-2024,15:11:00,"""CNR7043121""",Incomplete,"""CID1702285""",eBike,Hauz Khas,Ghaziabad,3.7,21.0,null,null,null,null,1,Vehicle Breakdown,373,39.33,null,null,UPI
+25-12-2024,11:27:29,"""CNR5240794""",Completed,"""CID3894324""",Premier Sedan,Noida Film City,Rajouri Garden,7.4,38.0,null,null,null,null,null,null,814,35.37,5.0,3.2,Credit Card
+26-12-2024,10:02:49,"""CNR1215049""",Cancelled by Driver,"""CID3860153""",Auto,IGI Airport,Rajouri Garden,13.6,null,null,null,1,The customer was coughing/sick,null,null,null,null,null,null,null
+26-12-2024,10:53:24,"""CNR9521427""",Cancelled by Customer,"""CID7921385""",Premier Sedan,Indirapuram,Mayur Vihar,19.9,null,1,Driver is not moving towards pickup location,null,null,null,null,null,null,null,null,null
+27-12-2024,00:19:13,"""CNR8266743""",Completed,"""CID8343005""",Bike,Janakpuri,Barakhamba Road,18.2,43.0,null,null,null,null,null,null,487,40.08,4.5,4.8,Cash
+28-12-2024,22:18:14,"""CNR8471206""",Cancelled by Driver,"""CID3894324""",Auto,Okhla,Rohini,18.8,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+29-12-2024,03:27:49,"""CNR5073250""",Completed,"""CID9700830""",Go Mini,Shahdara,Rajouri Garden,17.1,33.1,null,null,null,null,null,null,612,32.84,3.8,4.0,Uber Wallet
+29-12-2024,05:35:30,"""CNR1605588""",Cancelled by Driver,"""CID6563917""",Go Sedan,Barakhamba Road,Khan Market,13.4,null,null,null,1,More than permitted people in there,null,null,null,null,null,null,null
+30-12-2024,03:00:34,"""CNR3380687""",Incomplete,"""CID6226679""",Premier Sedan,Punjabi Bagh,Cyber Hub,11.3,40.6,null,null,null,null,1,Customer Demand,363,11.07,null,null,Uber Wallet
+31-12-2024,20:17:57,"""CNR6910514""",Completed,"""CID8334651""",Auto,null,Okhla,13.6,14.6,null,null,null,null,null,null,423,31.01,4.4,3.1,Cash

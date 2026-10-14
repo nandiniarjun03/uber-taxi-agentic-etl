@@ -1,0 +1,213 @@
+# Databricks Asset Bundle: deploys the ETL jobs and the agent job.
+#
+#   databricks bundle validate -t dev
+#   databricks bundle deploy   -t dev --var storage_account=<acct> --var alert_email=<you@x.com>
+#   databricks bundle run uber_etl_full_pipeline -t dev
+#
+# Secrets (service principal for ADLS, optional Foundry key) live in the secret scope
+# referenced below - see infra/provision_azure.sh. Nothing secret is stored in this file.
+bundle:
+  name: uber-taxi-agentic-etl
+
+variables:
+  storage_account:
+    description: ADLS Gen2 storage account name (hierarchical namespace enabled)
+  secret_scope:
+    default: uber-etl
+  alert_email:
+    description: Address notified when a job run fails
+    default: ""
+  spark_version:
+    default: 15.4.x-scala2.12          # DBR 15.4 LTS (Spark 3.5, Delta 3.2)
+  node_type:
+    default: Standard_D4ds_v5
+  foundry_endpoint:
+    default: ""
+  foundry_deployment:
+    default: gpt-4o
+
+targets:
+  dev:
+    mode: development
+    default: true
+  prod:
+    mode: production
+
+resources:
+  jobs:
+    # ------------------------------------------------------------------------------
+    # Full pipeline: Bronze -> Silver -> quality -> Gold -> quality (scheduled / on demand)
+    # ------------------------------------------------------------------------------
+    uber_etl_full_pipeline:
+      name: uber-etl-full-pipeline
+      max_concurrent_runs: 1
+      timeout_seconds: 7200
+      email_notifications:
+        on_failure: ["${var.alert_email}"]
+      parameters:
+        - name: from_date
+          default: ""
+        - name: to_date
+          default: ""
+      schedule:
+        quartz_cron_expression: "0 0 6 * * ?"
+        timezone_id: Asia/Kolkata
+        pause_status: PAUSED
+      job_clusters:
+        - job_cluster_key: etl_cluster
+          new_cluster: &etl_cluster
+            spark_version: ${var.spark_version}
+            node_type_id: ${var.node_type}
+            num_workers: 2
+            data_security_mode: SINGLE_USER
+            spark_conf:
+              # ADLS Gen2 OAuth with a service principal - values come from the secret scope
+              fs.azure.account.auth.type.${var.storage_account}.dfs.core.windows.net: OAuth
+              fs.azure.account.oauth.provider.type.${var.storage_account}.dfs.core.windows.net: org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider
+              fs.azure.account.oauth2.client.id.${var.storage_account}.dfs.core.windows.net: "{{secrets/${var.secret_scope}/sp-client-id}}"
+              fs.azure.account.oauth2.client.secret.${var.storage_account}.dfs.core.windows.net: "{{secrets/${var.secret_scope}/sp-client-secret}}"
+              fs.azure.account.oauth2.client.endpoint.${var.storage_account}.dfs.core.windows.net: "https://login.microsoftonline.com/{{secrets/${var.secret_scope}/sp-tenant-id}}/oauth2/token"
+              spark.databricks.delta.optimizeWrite.enabled: "true"
+            spark_env_vars:
+              STORAGE_MODE: adls
+              STORAGE_ACCOUNT_NAME: ${var.storage_account}
+              DATABRICKS_SECRET_SCOPE: ${var.secret_scope}
+              TABLE_FORMAT: delta
+              OPTIMIZE_GOLD: "true"
+      tasks:
+        - task_key: bronze
+          job_cluster_key: etl_cluster
+          max_retries: 2
+          min_retry_interval_millis: 60000
+          retry_on_timeout: true
+          timeout_seconds: 1800
+          spark_python_task:
+            python_file: ./src/run_task.py
+            parameters: ["--task", "bronze", "--from-date", "{{job.parameters.from_date}}",
+                         "--to-date", "{{job.parameters.to_date}}", "--batch-id", "{{job.run_id}}"]
+        - task_key: silver
+          depends_on: [{task_key: bronze}]
+          job_cluster_key: etl_cluster
+          max_retries: 2
+          min_retry_interval_millis: 60000
+          spark_python_task:
+            python_file: ./src/run_task.py
+            parameters: ["--task", "silver", "--from-date", "{{job.parameters.from_date}}",
+                         "--to-date", "{{job.parameters.to_date}}", "--batch-id", "{{job.run_id}}"]
+        - task_key: quality_bronze_silver
+          depends_on: [{task_key: silver}]
+          job_cluster_key: etl_cluster
+          max_retries: 0           # data problems are not fixed by retrying
+          spark_python_task:
+            python_file: ./src/run_task.py
+            parameters: ["--task", "quality", "--layer", "bronze"]
+        - task_key: quality_silver
+          depends_on: [{task_key: quality_bronze_silver}]
+          job_cluster_key: etl_cluster
+          max_retries: 0
+          spark_python_task:
+            python_file: ./src/run_task.py
+            parameters: ["--task", "quality", "--layer", "silver"]
+        - task_key: gold
+          depends_on: [{task_key: quality_silver}]
+          job_cluster_key: etl_cluster
+          max_retries: 2
+          min_retry_interval_millis: 60000
+          spark_python_task:
+            python_file: ./src/run_task.py
+            parameters: ["--task", "gold"]
+        - task_key: quality_gold
+          depends_on: [{task_key: gold}]
+          job_cluster_key: etl_cluster
+          max_retries: 0
+          spark_python_task:
+            python_file: ./src/run_task.py
+            parameters: ["--task", "quality", "--layer", "gold"]
+
+    # ------------------------------------------------------------------------------
+    # Bronze -> Silver only: the job the `etl` agent triggers and polls
+    # ------------------------------------------------------------------------------
+    uber_etl_bronze_silver:
+      name: uber-etl-bronze-silver
+      max_concurrent_runs: 1
+      timeout_seconds: 3600
+      email_notifications:
+        on_failure: ["${var.alert_email}"]
+      parameters:
+        - name: from_date
+          default: ""
+        - name: to_date
+          default: ""
+      job_clusters:
+        - job_cluster_key: etl_cluster
+          new_cluster: *etl_cluster
+      tasks:
+        - task_key: bronze
+          job_cluster_key: etl_cluster
+          max_retries: 1
+          spark_python_task:
+            python_file: ./src/run_task.py
+            parameters: ["--task", "bronze", "--from-date", "{{job.parameters.from_date}}",
+                         "--to-date", "{{job.parameters.to_date}}", "--batch-id", "{{job.run_id}}"]
+        - task_key: silver
+          depends_on: [{task_key: bronze}]
+          job_cluster_key: etl_cluster
+          max_retries: 1
+          spark_python_task:
+            python_file: ./src/run_task.py
+            parameters: ["--task", "silver", "--from-date", "{{job.parameters.from_date}}",
+                         "--to-date", "{{job.parameters.to_date}}", "--batch-id", "{{job.run_id}}"]
+
+    # ------------------------------------------------------------------------------
+    # Agentic supervisor: runs the LangGraph workflow (triggers the job above, validates,
+    # builds Gold, writes the run report to reports/)
+    # ------------------------------------------------------------------------------
+    uber_agentic_supervisor:
+      name: uber-agentic-supervisor
+      max_concurrent_runs: 1
+      timeout_seconds: 7200
+      email_notifications:
+        on_failure: ["${var.alert_email}"]
+      parameters:
+        - name: request
+          default: "Run the full ETL pipeline and validate every layer"
+      schedule:
+        quartz_cron_expression: "0 30 6 * * ?"
+        timezone_id: Asia/Kolkata
+        pause_status: PAUSED
+      job_clusters:
+        - job_cluster_key: agent_cluster
+          new_cluster:
+            <<: *etl_cluster
+            num_workers: 1
+            spark_env_vars:
+              STORAGE_MODE: adls
+              STORAGE_ACCOUNT_NAME: ${var.storage_account}
+              DATABRICKS_SECRET_SCOPE: ${var.secret_scope}
+              TABLE_FORMAT: delta
+              EXECUTION_BACKEND: databricks
+              DATABRICKS_BRONZE_SILVER_JOB_ID: ${resources.jobs.uber_etl_bronze_silver.id}
+              LLM_MODE: foundry
+              AZURE_OPENAI_ENDPOINT: ${var.foundry_endpoint}
+              AZURE_OPENAI_DEPLOYMENT: ${var.foundry_deployment}
+              FOUNDRY_AUTH: entra
+              # DefaultAzureCredential (service principal) for Foundry and the reports container
+              AZURE_TENANT_ID: "{{secrets/${var.secret_scope}/sp-tenant-id}}"
+              AZURE_CLIENT_ID: "{{secrets/${var.secret_scope}/sp-client-id}}"
+              AZURE_CLIENT_SECRET: "{{secrets/${var.secret_scope}/sp-client-secret}}"
+              JOB_POLL_SECONDS: "20"
+      tasks:
+        - task_key: agents
+          job_cluster_key: agent_cluster
+          max_retries: 0
+          spark_python_task:
+            python_file: ./scripts/run_agents.py
+            parameters: ["{{job.parameters.request}}"]
+          libraries:
+            - pypi: {package: "langgraph>=0.2.60"}
+            - pypi: {package: "langchain-core>=0.3"}
+            - pypi: {package: "openai>=1.40"}
+            - pypi: {package: "azure-identity>=1.17"}
+            - pypi: {package: "azure-storage-file-datalake>=12.16"}
+            - pypi: {package: "databricks-sdk>=0.30"}
+            - pypi: {package: "python-dotenv>=1.0"}

@@ -1,0 +1,12 @@
+# Runtime dependencies. On Databricks, pyspark/delta come with the runtime (DBR 15.4 LTS+);
+# install the rest as cluster/job libraries or with %pip install -r requirements.txt.
+pyspark>=3.5.3,<4.1
+delta-spark>=3.2.1,<4.1
+azure-identity>=1.17
+azure-storage-file-datalake>=12.16
+databricks-sdk>=0.30
+openai>=1.40
+langgraph>=0.2.60
+langchain-core>=0.3
+pydantic>=2.6
+python-dotenv>=1.0

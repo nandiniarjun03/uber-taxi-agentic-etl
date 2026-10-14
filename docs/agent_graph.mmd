@@ -1,0 +1,27 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	supervisor(supervisor)
+	etl(etl)
+	quality(quality)
+	analytics(analytics)
+	explain(explain)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> supervisor;
+	etl -. &nbsp;failure&nbsp; .-> __end__;
+	etl -. &nbsp;success&nbsp; .-> quality;
+	quality -. &nbsp;fail&nbsp; .-> __end__;
+	quality -. &nbsp;pass&nbsp; .-> analytics;
+	supervisor -.-> analytics;
+	supervisor -. &nbsp;run_etl&nbsp; .-> etl;
+	supervisor -.-> explain;
+	supervisor -.-> quality;
+	analytics --> __end__;
+	explain --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

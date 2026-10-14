@@ -1,0 +1,9 @@
+line-length = 120
+target-version = "py310"
+
+[lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E731", "E501"]  # long prose strings (prompts, remediation hints)
+
+[lint.per-file-ignores]
+"notebooks/*" = ["E402", "F821"]

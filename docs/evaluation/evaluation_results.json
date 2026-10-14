@@ -1,0 +1,458 @@
+{
+  "metrics": {
+    "detection_rate": 1.0,
+    "false_alarm_rate": 0.0,
+    "recovery_rate": 1.0,
+    "status_accuracy": 1.0,
+    "median_agent_seconds": 11.94,
+    "manual_validation_minutes_baseline": 45.0,
+    "time_saved_per_run_minutes": 44.8,
+    "total_tokens": 0,
+    "avg_tokens_per_run": 0.0,
+    "llm_client": "offline-rules",
+    "rows_per_scenario": 3000,
+    "generated_at": "2026-10-14T20:11:53+00:00"
+  },
+  "scenarios": [
+    {
+      "scenario": "healthy_1",
+      "fault": "none",
+      "description": "Clean data (healthy run)",
+      "expected_status": "PASS",
+      "actual_status": "PASS",
+      "expected_stop_node": "analytics",
+      "stop_node": "analytics",
+      "nodes_run": [
+        "supervisor",
+        "etl",
+        "quality",
+        "analytics"
+      ],
+      "detected": null,
+      "false_alarm": false,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [],
+      "warning_rules": [],
+      "expected_rules": [],
+      "etl_attempts": 1,
+      "agent_seconds": 24.06,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 2,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/healthy_1/reports/runs/2026-10-14T20-07-01-7927/report.md",
+      "summary": "Run 2026-10-14T20-07-01-7927 finished with status PASS after nodes supervisor, etl, quality, analytics. Row counts: {'bronze': 3000, 'silver': 3000, 'quarantine': 0}. All checks passed. No human action required."
+    },
+    {
+      "scenario": "healthy_2",
+      "fault": "none",
+      "description": "Clean data (healthy run)",
+      "expected_status": "PASS",
+      "actual_status": "PASS",
+      "expected_stop_node": "analytics",
+      "stop_node": "analytics",
+      "nodes_run": [
+        "supervisor",
+        "etl",
+        "quality",
+        "analytics"
+      ],
+      "detected": null,
+      "false_alarm": false,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [],
+      "warning_rules": [],
+      "expected_rules": [],
+      "etl_attempts": 1,
+      "agent_seconds": 22.21,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 2,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/healthy_2/reports/runs/2026-10-14T20-07-38-58ab/report.md",
+      "summary": "Run 2026-10-14T20-07-38-58ab finished with status PASS after nodes supervisor, etl, quality, analytics. Row counts: {'bronze': 3000, 'silver': 3000, 'quarantine': 0}. All checks passed. No human action required."
+    },
+    {
+      "scenario": "healthy_3",
+      "fault": "none",
+      "description": "Clean data (healthy run)",
+      "expected_status": "PASS",
+      "actual_status": "PASS",
+      "expected_stop_node": "analytics",
+      "stop_node": "analytics",
+      "nodes_run": [
+        "supervisor",
+        "etl",
+        "quality",
+        "analytics"
+      ],
+      "detected": null,
+      "false_alarm": false,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [],
+      "warning_rules": [],
+      "expected_rules": [],
+      "etl_attempts": 1,
+      "agent_seconds": 19.58,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 2,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/healthy_3/reports/runs/2026-10-14T20-08-12-5b4c/report.md",
+      "summary": "Run 2026-10-14T20-08-12-5b4c finished with status PASS after nodes supervisor, etl, quality, analytics. Row counts: {'bronze': 3000, 'silver': 3000, 'quarantine': 0}. All checks passed. No human action required."
+    },
+    {
+      "scenario": "missing_source_file",
+      "fault": "missing_source_file",
+      "description": "Landing zone is empty (upstream export did not arrive)",
+      "expected_status": "FAIL",
+      "actual_status": "FAIL",
+      "expected_stop_node": "etl",
+      "stop_node": "etl",
+      "nodes_run": [
+        "supervisor",
+        "etl"
+      ],
+      "detected": true,
+      "false_alarm": null,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [
+        "MissingSourceError"
+      ],
+      "warning_rules": [],
+      "expected_rules": [
+        "MissingSourceError"
+      ],
+      "etl_attempts": 1,
+      "agent_seconds": 0.24,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 3,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/missing_source_file/reports/runs/2026-10-14T20-08-44-39a4/report.md",
+      "summary": "Run 2026-10-14T20-08-44-39a4 finished with status FAIL after nodes supervisor, etl. Row counts: {}. Critical findings: MissingSourceError; the run was stopped and data was not published. Human action required."
+    },
+    {
+      "scenario": "schema_change",
+      "fault": "schema_change",
+      "description": "Source renamed 'Booking Value' to 'Fare Amount' and dropped 'Payment Method'",
+      "expected_status": "FAIL",
+      "actual_status": "FAIL",
+      "expected_stop_node": "etl",
+      "stop_node": "etl",
+      "nodes_run": [
+        "supervisor",
+        "etl"
+      ],
+      "detected": true,
+      "false_alarm": null,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [
+        "SourceSchemaError"
+      ],
+      "warning_rules": [],
+      "expected_rules": [
+        "SourceSchemaError"
+      ],
+      "etl_attempts": 1,
+      "agent_seconds": 0.24,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 3,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/schema_change/reports/runs/2026-10-14T20-08-55-6506/report.md",
+      "summary": "Run 2026-10-14T20-08-55-6506 finished with status FAIL after nodes supervisor, etl. Row counts: {}. Critical findings: SourceSchemaError; the run was stopped and data was not published. Human action required."
+    },
+    {
+      "scenario": "job_failure",
+      "fault": "job_failure",
+      "description": "Databricks job task crashed (simulated executor loss)",
+      "expected_status": "FAIL",
+      "actual_status": "FAIL",
+      "expected_stop_node": "etl",
+      "stop_node": "etl",
+      "nodes_run": [
+        "supervisor",
+        "etl"
+      ],
+      "detected": true,
+      "false_alarm": null,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [
+        "job_failure"
+      ],
+      "warning_rules": [],
+      "expected_rules": [
+        "job_failure"
+      ],
+      "etl_attempts": 2,
+      "agent_seconds": 0.24,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 3,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/job_failure/reports/runs/2026-10-14T20-09-07-73f8/report.md",
+      "summary": "Run 2026-10-14T20-09-07-73f8 finished with status FAIL after nodes supervisor, etl. Row counts: {}. Critical findings: job_failure; the run was stopped and data was not published. Human action required."
+    },
+    {
+      "scenario": "duplicate_records",
+      "fault": "duplicate_records",
+      "description": "8% of bookings delivered twice",
+      "expected_status": "FAIL",
+      "actual_status": "FAIL",
+      "expected_stop_node": "quality",
+      "stop_node": "quality",
+      "nodes_run": [
+        "supervisor",
+        "etl",
+        "quality"
+      ],
+      "detected": true,
+      "false_alarm": null,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [
+        "bronze_unique_booking_id",
+        "silver_quarantine_rate"
+      ],
+      "warning_rules": [],
+      "expected_rules": [
+        "bronze_unique_booking_id",
+        "silver_quarantine_rate"
+      ],
+      "etl_attempts": 1,
+      "agent_seconds": 11.57,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 3,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/duplicate_records/reports/runs/2026-10-14T20-09-18-9f37/report.md",
+      "summary": "Run 2026-10-14T20-09-18-9f37 finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 3240, 'silver': 3000, 'quarantine': 240}. Critical findings: bronze_unique_booking_id, silver_quarantine_rate; the run was stopped and data was not published. Human action required."
+    },
+    {
+      "scenario": "null_spike",
+      "fault": "null_spike",
+      "description": "12% of rows lost Customer ID / Pickup Location",
+      "expected_status": "FAIL",
+      "actual_status": "FAIL",
+      "expected_stop_node": "quality",
+      "stop_node": "quality",
+      "nodes_run": [
+        "supervisor",
+        "etl",
+        "quality"
+      ],
+      "detected": true,
+      "false_alarm": null,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [
+        "bronze_key_completeness",
+        "silver_quarantine_rate"
+      ],
+      "warning_rules": [],
+      "expected_rules": [
+        "bronze_key_completeness"
+      ],
+      "etl_attempts": 1,
+      "agent_seconds": 12.28,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 3,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/null_spike/reports/runs/2026-10-14T20-09-41-4cb5/report.md",
+      "summary": "Run 2026-10-14T20-09-41-4cb5 finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 3000, 'silver': 2640, 'quarantine': 360}. Critical findings: bronze_key_completeness, silver_quarantine_rate; the run was stopped and data was not published. Human action required."
+    },
+    {
+      "scenario": "out_of_range_values",
+      "fault": "out_of_range_values",
+      "description": "Negative booking values and driver ratings above 5",
+      "expected_status": "FAIL",
+      "actual_status": "FAIL",
+      "expected_stop_node": "quality",
+      "stop_node": "quality",
+      "nodes_run": [
+        "supervisor",
+        "etl",
+        "quality"
+      ],
+      "detected": true,
+      "false_alarm": null,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [
+        "bronze_value_ranges"
+      ],
+      "warning_rules": [
+        "silver_quarantine_rate"
+      ],
+      "expected_rules": [
+        "bronze_value_ranges"
+      ],
+      "etl_attempts": 1,
+      "agent_seconds": 11.94,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 3,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/out_of_range_values/reports/runs/2026-10-14T20-10-03-cd03/report.md",
+      "summary": "Run 2026-10-14T20-10-03-cd03 finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 3000, 'silver': 2906, 'quarantine': 94}. Critical findings: bronze_value_ranges; the run was stopped and data was not published. Warnings to investigate: silver_quarantine_rate. Human action required."
+    },
+    {
+      "scenario": "status_flag_mismatch",
+      "fault": "status_flag_mismatch",
+      "description": "Completed bookings carrying a customer-cancellation flag and reason",
+      "expected_status": "FAIL",
+      "actual_status": "FAIL",
+      "expected_stop_node": "quality",
+      "stop_node": "quality",
+      "nodes_run": [
+        "supervisor",
+        "etl",
+        "quality"
+      ],
+      "detected": true,
+      "false_alarm": null,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [
+        "bronze_status_flag_consistency"
+      ],
+      "warning_rules": [
+        "silver_quarantine_rate"
+      ],
+      "expected_rules": [
+        "bronze_status_flag_consistency"
+      ],
+      "etl_attempts": 1,
+      "agent_seconds": 11.9,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 3,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/status_flag_mismatch/reports/runs/2026-10-14T20-10-25-6399/report.md",
+      "summary": "Run 2026-10-14T20-10-25-6399 finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 3000, 'silver': 2925, 'quarantine': 75}. Critical findings: bronze_status_flag_consistency; the run was stopped and data was not published. Warnings to investigate: silver_quarantine_rate. Human action required."
+    },
+    {
+      "scenario": "row_count_drop",
+      "fault": "row_count_drop",
+      "description": "Only 45% of the usual volume arrived",
+      "expected_status": "FAIL",
+      "actual_status": "FAIL",
+      "expected_stop_node": "quality",
+      "stop_node": "quality",
+      "nodes_run": [
+        "supervisor",
+        "etl",
+        "quality"
+      ],
+      "detected": true,
+      "false_alarm": null,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [
+        "bronze_volume_vs_previous_load"
+      ],
+      "warning_rules": [
+        "bronze_timeliness"
+      ],
+      "expected_rules": [
+        "bronze_volume_vs_previous_load"
+      ],
+      "etl_attempts": 1,
+      "agent_seconds": 11.1,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 3,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/row_count_drop/reports/runs/2026-10-14T20-10-48-6b8e/report.md",
+      "summary": "Run 2026-10-14T20-10-48-6b8e finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 1350, 'silver': 1350, 'quarantine': 0}. Critical findings: bronze_volume_vs_previous_load; the run was stopped and data was not published. Warnings to investigate: bronze_timeliness. Human action required."
+    },
+    {
+      "scenario": "missing_dates",
+      "fault": "missing_dates",
+      "description": "Seven consecutive days missing from the export",
+      "expected_status": "FAIL",
+      "actual_status": "FAIL",
+      "expected_stop_node": "quality",
+      "stop_node": "quality",
+      "nodes_run": [
+        "supervisor",
+        "etl",
+        "quality"
+      ],
+      "detected": true,
+      "false_alarm": null,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [
+        "bronze_timeliness"
+      ],
+      "warning_rules": [],
+      "expected_rules": [
+        "bronze_timeliness"
+      ],
+      "etl_attempts": 1,
+      "agent_seconds": 12.95,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 3,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/missing_dates/reports/runs/2026-10-14T20-11-11-ffaa/report.md",
+      "summary": "Run 2026-10-14T20-11-11-ffaa finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 2942, 'silver': 2942, 'quarantine': 0}. Critical findings: bronze_timeliness; the run was stopped and data was not published. Human action required."
+    },
+    {
+      "scenario": "payment_method_gap",
+      "fault": "payment_method_gap",
+      "description": "0.6% of Completed bookings missing Payment Method (soft rule)",
+      "expected_status": "PASS_WITH_WARNINGS",
+      "actual_status": "PASS_WITH_WARNINGS",
+      "expected_stop_node": "analytics",
+      "stop_node": "analytics",
+      "nodes_run": [
+        "supervisor",
+        "etl",
+        "quality",
+        "analytics"
+      ],
+      "detected": true,
+      "false_alarm": null,
+      "status_correct": true,
+      "stopped_at_right_node": true,
+      "explained_correctly": true,
+      "recovered": true,
+      "critical_rules": [],
+      "warning_rules": [
+        "completed_rides_missing_payment_method"
+      ],
+      "expected_rules": [
+        "completed_rides_missing_payment_method"
+      ],
+      "etl_attempts": 1,
+      "agent_seconds": 18.34,
+      "llm_client": "offline-rules",
+      "tokens": 0,
+      "llm_calls": 3,
+      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/payment_method_gap/reports/runs/2026-10-14T20-11-35-1f83/report.md",
+      "summary": "Run 2026-10-14T20-11-35-1f83 finished with status PASS_WITH_WARNINGS after nodes supervisor, etl, quality, analytics. Row counts: {'bronze': 3000, 'silver': 3000, 'quarantine': 0}. Warnings to investigate: completed_rides_missing_payment_method. No human action required."
+    }
+  ]
+}

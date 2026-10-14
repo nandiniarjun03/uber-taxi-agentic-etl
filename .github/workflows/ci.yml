@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install ruff
+      - run: ruff check src scripts tests
+
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      TABLE_FORMAT: delta          # real Delta Lake tables on Linux
+      STORAGE_MODE: local
+      LLM_MODE: offline            # deterministic reasoning client; no Azure secrets in CI
+      SPARK_SHUFFLE_PARTITIONS: "2"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+      - name: Cache Ivy (Delta jars)
+        uses: actions/cache@v4
+        with:
+          path: ~/.ivy2
+          key: ivy-${{ hashFiles('requirements.txt') }}
+      - name: Unit + agent + end-to-end tests
+        run: pytest -q --timeout=900
+      - name: Fault-injection evaluation (small)
+        run: python scripts/evaluate_agents.py --rows 1500 --healthy-runs 2 --out ci_evaluation
+      - uses: actions/upload-artifact@v4
+        with:
+          name: evaluation-report
+          path: ci_evaluation/
