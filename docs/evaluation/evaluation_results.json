@@ -42,7 +42,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 2,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/healthy_1/reports/runs/2026-10-14T20-07-01-7927/report.md",
+      "report": "lakehouse_eval/healthy_1/reports/runs/2026-10-14T20-07-01-7927/report.md",
       "summary": "Run 2026-10-14T20-07-01-7927 finished with status PASS after nodes supervisor, etl, quality, analytics. Row counts: {'bronze': 3000, 'silver': 3000, 'quarantine': 0}. All checks passed. No human action required."
     },
     {
@@ -73,7 +73,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 2,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/healthy_2/reports/runs/2026-10-14T20-07-38-58ab/report.md",
+      "report": "lakehouse_eval/healthy_2/reports/runs/2026-10-14T20-07-38-58ab/report.md",
       "summary": "Run 2026-10-14T20-07-38-58ab finished with status PASS after nodes supervisor, etl, quality, analytics. Row counts: {'bronze': 3000, 'silver': 3000, 'quarantine': 0}. All checks passed. No human action required."
     },
     {
@@ -104,7 +104,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 2,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/healthy_3/reports/runs/2026-10-14T20-08-12-5b4c/report.md",
+      "report": "lakehouse_eval/healthy_3/reports/runs/2026-10-14T20-08-12-5b4c/report.md",
       "summary": "Run 2026-10-14T20-08-12-5b4c finished with status PASS after nodes supervisor, etl, quality, analytics. Row counts: {'bronze': 3000, 'silver': 3000, 'quarantine': 0}. All checks passed. No human action required."
     },
     {
@@ -137,7 +137,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 3,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/missing_source_file/reports/runs/2026-10-14T20-08-44-39a4/report.md",
+      "report": "lakehouse_eval/missing_source_file/reports/runs/2026-10-14T20-08-44-39a4/report.md",
       "summary": "Run 2026-10-14T20-08-44-39a4 finished with status FAIL after nodes supervisor, etl. Row counts: {}. Critical findings: MissingSourceError; the run was stopped and data was not published. Human action required."
     },
     {
@@ -170,7 +170,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 3,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/schema_change/reports/runs/2026-10-14T20-08-55-6506/report.md",
+      "report": "lakehouse_eval/schema_change/reports/runs/2026-10-14T20-08-55-6506/report.md",
       "summary": "Run 2026-10-14T20-08-55-6506 finished with status FAIL after nodes supervisor, etl. Row counts: {}. Critical findings: SourceSchemaError; the run was stopped and data was not published. Human action required."
     },
     {
@@ -203,7 +203,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 3,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/job_failure/reports/runs/2026-10-14T20-09-07-73f8/report.md",
+      "report": "lakehouse_eval/job_failure/reports/runs/2026-10-14T20-09-07-73f8/report.md",
       "summary": "Run 2026-10-14T20-09-07-73f8 finished with status FAIL after nodes supervisor, etl. Row counts: {}. Critical findings: job_failure; the run was stopped and data was not published. Human action required."
     },
     {
@@ -239,7 +239,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 3,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/duplicate_records/reports/runs/2026-10-14T20-09-18-9f37/report.md",
+      "report": "lakehouse_eval/duplicate_records/reports/runs/2026-10-14T20-09-18-9f37/report.md",
       "summary": "Run 2026-10-14T20-09-18-9f37 finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 3240, 'silver': 3000, 'quarantine': 240}. Critical findings: bronze_unique_booking_id, silver_quarantine_rate; the run was stopped and data was not published. Human action required."
     },
     {
@@ -274,7 +274,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 3,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/null_spike/reports/runs/2026-10-14T20-09-41-4cb5/report.md",
+      "report": "lakehouse_eval/null_spike/reports/runs/2026-10-14T20-09-41-4cb5/report.md",
       "summary": "Run 2026-10-14T20-09-41-4cb5 finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 3000, 'silver': 2640, 'quarantine': 360}. Critical findings: bronze_key_completeness, silver_quarantine_rate; the run was stopped and data was not published. Human action required."
     },
     {
@@ -310,7 +310,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 3,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/out_of_range_values/reports/runs/2026-10-14T20-10-03-cd03/report.md",
+      "report": "lakehouse_eval/out_of_range_values/reports/runs/2026-10-14T20-10-03-cd03/report.md",
       "summary": "Run 2026-10-14T20-10-03-cd03 finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 3000, 'silver': 2906, 'quarantine': 94}. Critical findings: bronze_value_ranges; the run was stopped and data was not published. Warnings to investigate: silver_quarantine_rate. Human action required."
     },
     {
@@ -346,7 +346,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 3,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/status_flag_mismatch/reports/runs/2026-10-14T20-10-25-6399/report.md",
+      "report": "lakehouse_eval/status_flag_mismatch/reports/runs/2026-10-14T20-10-25-6399/report.md",
       "summary": "Run 2026-10-14T20-10-25-6399 finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 3000, 'silver': 2925, 'quarantine': 75}. Critical findings: bronze_status_flag_consistency; the run was stopped and data was not published. Warnings to investigate: silver_quarantine_rate. Human action required."
     },
     {
@@ -382,7 +382,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 3,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/row_count_drop/reports/runs/2026-10-14T20-10-48-6b8e/report.md",
+      "report": "lakehouse_eval/row_count_drop/reports/runs/2026-10-14T20-10-48-6b8e/report.md",
       "summary": "Run 2026-10-14T20-10-48-6b8e finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 1350, 'silver': 1350, 'quarantine': 0}. Critical findings: bronze_volume_vs_previous_load; the run was stopped and data was not published. Warnings to investigate: bronze_timeliness. Human action required."
     },
     {
@@ -416,7 +416,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 3,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/missing_dates/reports/runs/2026-10-14T20-11-11-ffaa/report.md",
+      "report": "lakehouse_eval/missing_dates/reports/runs/2026-10-14T20-11-11-ffaa/report.md",
       "summary": "Run 2026-10-14T20-11-11-ffaa finished with status FAIL after nodes supervisor, etl, quality. Row counts: {'bronze': 2942, 'silver': 2942, 'quarantine': 0}. Critical findings: bronze_timeliness; the run was stopped and data was not published. Human action required."
     },
     {
@@ -451,7 +451,7 @@
       "llm_client": "offline-rules",
       "tokens": 0,
       "llm_calls": 3,
-      "report": "C:/Users/nandi/OneDrive/Desktop/Capstone3/uber-taxi-agentic-etl/lakehouse_eval/payment_method_gap/reports/runs/2026-10-14T20-11-35-1f83/report.md",
+      "report": "lakehouse_eval/payment_method_gap/reports/runs/2026-10-14T20-11-35-1f83/report.md",
       "summary": "Run 2026-10-14T20-11-35-1f83 finished with status PASS_WITH_WARNINGS after nodes supervisor, etl, quality, analytics. Row counts: {'bronze': 3000, 'silver': 3000, 'quarantine': 0}. Warnings to investigate: completed_rides_missing_payment_method. No human action required."
     }
   ]
